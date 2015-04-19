@@ -1,6 +1,6 @@
 class WordsController < ApplicationController
   before_action :set_word, only: [:show, :edit, :update, :destroy]
-  after_filter :set_headers
+  after_filter :set_headers, :authenticate_user!
   # GET /words
   # GET /words.json
   def index

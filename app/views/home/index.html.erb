@@ -4,15 +4,23 @@
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".main-navbar"><span
       class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-      <a href="index.html" class="navbar-brand"><img src="assets/images/logo.png" alt="One of the best themes ever">Works</a>
+      <a href="/" class="navbar-brand"><img src="/assets/images/logo.png" alt="One of the best themes ever"><strong>Works</strong></a>
     </div>
     <nav class="collapse navbar-collapse main-navbar" role="navigation">
       <ul class="nav navbar-nav navbar-right">
+
         <li class=""><a href="/#home">Home</a></li>
-        <li class=""><a href="/#about">Why Us</a></li>
+        <li class=""><a href="/#about">Why 3 Works?</a></li>
         <li class=""><a href="/#pricing">Pricing</a></li>
         <li class=""><a href="/#skills">Skills</a></li>
         <li class=""><a href="/#contact">Contact</a></li>
+        <% if user_signed_in? %>
+            <li><%= link_to 'Sign out', destroy_user_session_path , :method => :delete %>
+        <% else %>
+        <li class=""><%= link_to 'Register', new_user_registration_path %></li>
+        <li class=""><%= link_to 'Sign in', new_user_session_path %></li>
+
+        <% end %>
       </ul>
     </nav>
   </div>
@@ -138,127 +146,30 @@
       </svg>
     </div>
   </section>
-  <section class="section swatch-red-white has-top has-bottom">
+  <section class="section swatch-red-white has-top">
     <div class="decor-top">
-      <svg class="decor" height="120px" preserveaspectratio="none" style="height: 120px !important" version="1.1"
-           viewbox="0 0 100 100" width="240px" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0 100 L50 0 L100 100" stroke-width="0"></path>
-      </svg>
-    </div>
-    <div class="container">
-      <header class="section-header text-center underline"><h1 class="headline super ">Portfolio</h1></header>
-      <div class="row">
-        <div class="text-default os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".0s">
-          <ul class="isotope-filters text-center">
-            <li class="active"><a class="pseudo-border active" data-filter="*" href="flexslider.html#">all</a></li>
-            <li><a class="pseudo-border" data-filter=".filter-gallery" href="flexslider.html#">gallery</a></li>
-            <li><a class="pseudo-border" data-filter=".filter-image" href="flexslider.html#">image</a></li>
-            <li><a class="pseudo-border" data-filter=".filter-video" href="flexslider.html#">video</a></li>
-          </ul>
-          <div class="portfolio isotope no-transition portfolio-hex portfolio-shadows row">
-            <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-gallery filter-image">
-              <figure class="portfolio-figure"><a href="portfolio-item-big.html"><img width="600" height="518"
-                                                                                      src="assets/images/design/vector/img-8-600x518.png"
-                                                                                      class="img-responsive"
-                                                                                      alt="some image"></a>
-                <figcaption><h4><a href="portfolio-item-big.html">Gallery items</a></h4>
-
-                  <p>You think water moves fast? You should see ice.</p><a class="magnific-gallery more" data-links="
-
-        assets/images/design/vector/img-4-1200x600.png ,
-
-        assets/images/design/vector/img-3-1200x600.png
-    " data-prev-text="Previous" data-next-text="Next"><i class="fa fa-search-plus"></i></a> <a class="link"
-                                                                                               href="portfolio-item-big.html"><i
-                class="fa fa-link"></i></a></figcaption>
-              </figure>
-            </div>
-            <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-video">
-              <figure class="portfolio-figure"><a href="portfolio-item-big.html"><img width="600" height="518"
-                                                                                      src="assets/images/design/vector/img-4-600x518.png"
-                                                                                      class="img-responsive"
-                                                                                      alt="some image"></a>
-                <figcaption><h4><a href="portfolio-item-big.html">Vimeo Item</a></h4>
-
-                  <p>You think water moves fast? You should see ice. It moves like it has a mind.</p><a
-                class="magnific-vimeo more" href="http://vimeo.com/41336551"><i class="fa fa-search-plus"></i></a>
-                  <a class="link" href="portfolio-item-big.html"><i class="fa fa-link"></i></a></figcaption>
-              </figure>
-            </div>
-            <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-video filter-image">
-              <figure class="portfolio-figure"><a href="portfolio-item-big.html"><img width="600" height="518"
-                                                                                      src="assets/images/design/vector/img-1-600x518.png"
-                                                                                      class="img-responsive"
-                                                                                      alt="some image"></a>
-                <figcaption><h4><a href="portfolio-item-big.html">Integer sollicibulum</a></h4>
-
-                  <p>After the avalanche it took us a week to climb out.</p><a class="magnific more"
-                                                                               href="assets/images/design/vector/img-1-1200x600.png"
-                                                                               title="Quisque porta"
-                                                                               data-prev-text="Previous"
-                                                                               data-next-text="Next"><i
-                class="fa fa-search-plus"></i></a> <a class="link" href="portfolio-item-big.html"><i
-                class="fa fa-link"></i></a></figcaption>
-              </figure>
-            </div>
-            <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-video filter-image filter-gallery">
-              <figure class="portfolio-figure"><a href="portfolio-item-big.html"><img width="600" height="518"
-                                                                                      src="assets/images/design/vector/img-5-600x518.png"
-                                                                                      class="img-responsive"
-                                                                                      alt="some image"></a>
-                <figcaption><h4><a href="portfolio-item-big.html">Quisque porta</a></h4>
-
-                  <p>I was living in his world, a world where chaos rules not order.</p><a class="magnific more"
-                                                                                           href="assets/images/design/vector/img-5-1200x600.png"
-                                                                                           title="Quisque porta"
-                                                                                           data-prev-text="Previous"
-                                                                                           data-next-text="Next"><i
-                class="fa fa-search-plus"></i></a> <a class="link" href="portfolio-item-big.html"><i
-                class="fa fa-link"></i></a></figcaption>
-              </figure>
-            </div>
-            <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-video">
-              <figure class="portfolio-figure"><a href="portfolio-item-big.html"><img width="600" height="518"
-                                                                                      src="assets/images/design/vector/img-2-600x518.png"
-                                                                                      class="img-responsive"
-                                                                                      alt="some image"></a>
-                <figcaption><h4><a href="portfolio-item-big.html">Youtube video</a></h4>
-
-                  <p>You think water moves fast? You should see ice.</p><a class="magnific-vimeo more"
-                                                                           href="http://www.youtube.com/watch?v=Sv3xVOs7_No"><i
-                class="fa fa-search-plus"></i></a> <a class="link" href="portfolio-item-big.html"><i
-                class="fa fa-link"></i></a></figcaption>
-              </figure>
-            </div>
-            <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-image filter-gallery">
-              <figure class="portfolio-figure"><a href="portfolio-item-big.html"><img width="600" height="518"
-                                                                                      src="assets/images/design/vector/img-3-600x518.png"
-                                                                                      class="img-responsive"
-                                                                                      alt="some image"></a>
-                <figcaption><h4><a href="portfolio-item-big.html">Quisque porta</a></h4>
-
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a class="magnific more"
-                                                                                     href="assets/images/design/vector/img-3-1200x600.png"
-                                                                                     title="Quisque porta"
-                                                                                     data-prev-text="Previous"
-                                                                                     data-next-text="Next"><i
-                class="fa fa-search-plus"></i></a> <a class="link" href="portfolio-item-big.html"><i
-                class="fa fa-link"></i></a></figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="decor-bottom">
       <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%"
            xmlns="http://www.w3.org/2000/svg">
         <path
-        d="M-5 0 Q 0 80 5 0 Z M0 0 Q 5 100 10 0 M5 0 Q 10 70 15 0 M10 0 Q 15 90 20 0 M15 0 Q 20 70 25 0 M20 0 Q 25 90 30 0 M25 0 Q 30 80 35 0 M30 0 Q 35 70 40 0 M35 0 Q 40 90 45 0 M40 0 Q 45 50 50 0 M45 0 Q 50 80 55 0 M50 0 Q 55 60 60 0 M55 0 Q 60 40 65 0 M60 0 Q 65 50 70 0 M65 0 Q 70 80 75 0 M70 0 Q 75 45 80 0 M75 0 Q 80 70 85 0 M80 0 Q 85 80 90 0 M85 0 Q 90 50 95 0 M90 0 Q 95 75 100 0 M95 0 Q 100 85 105 0 Z"
+        d="M-5 100 Q 0 20 5 100 Z M0 100 Q 5 0 10 100 M5 100 Q 10 30 15 100 M10 100 Q 15 10 20 100 M15 100 Q 20 30 25 100 M20 100 Q 25 -10 30 100 M25 100 Q 30 10 35 100 M30 100 Q 35 30 40 100 M35 100 Q 40 10 45 100 M40 100 Q 45 50 50 100 M45 100 Q 50 20 55 100 M50 100 Q 55 40 60 100 M55 100 Q 60 60 65 100 M60 100 Q 65 50 70 100 M65 100 Q 70 20 75 100 M70 100 Q 75 45 80 100 M75 100 Q 80 30 85 100 M80 100 Q 85 20 90 100 M85 100 Q 90 50 95 100 M90 100 Q 95 25 100 100 M95 100 Q 100 15 105 100 Z"
         stroke-width="0"></path>
       </svg>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-default os-animation animated" data-os-animation="fadeInLeft"
+             data-os-animation-delay="0.1s"><img alt="" src="" class="alignleft">
+        </div>
+        <div class="col-md-6 text-default os-animation animated" data-os-animation="fadeInRight"
+             data-os-animation-delay="0.3s">
+          <h1 class="text-left super  bordered-header">Read at your own pace
+          </h1>
+          <p class="lead">You can choose the number of words per word list and read the word lists at your own pace.
+          </p></div>
+      </div>
+    </div>
   </section>
+
   <section class="section swatch-white-red has-top">
     <div class="decor-top">
       <svg class="decor hidden-xs hidden-sm" height="100%" preserveaspectratio="none" version="1.1"
