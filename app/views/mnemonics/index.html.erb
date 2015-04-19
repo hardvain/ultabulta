@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Mnemonics</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Content</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @mnemonics.each do |mnemonic| %>
+      <tr>
+        <td><%= mnemonic.content %></td>
+        <td><%= link_to 'Show', mnemonic %></td>
+        <td><%= link_to 'Edit', edit_mnemonic_path(mnemonic) %></td>
+        <td><%= link_to 'Destroy', mnemonic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Mnemonic', new_mnemonic_path %>

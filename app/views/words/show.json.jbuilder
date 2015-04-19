@@ -1,0 +1,1 @@
+json.extract! @word, :id, :name, :mnemonics, :examples, :meanings
