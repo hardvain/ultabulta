@@ -29,8 +29,18 @@
       <file leaf-file-name="app.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/app.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.714286" vertical-offset="88" max-vertical-offset="726">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.892857" vertical-offset="219" max-vertical-offset="1122">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ocLazyLoad.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/vendor/ocLazyLoad.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21934">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,84 +56,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.ctrl.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/app.ctrl.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6015625" vertical-offset="440" max-vertical-offset="2618">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="924">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/app.css">
+      <file leaf-file-name="app.ctrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/scripts/app.ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/app/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2992">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/libs/assets/font-awesome/css/font-awesome.css">
+      <file leaf-file-name="config.router.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/app/scripts/config.router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.892857" vertical-offset="24" max-vertical-offset="39842">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.18275419" vertical-offset="1112" max-vertical-offset="4004">
+              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="font-awesome.min.css.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/app/font-awesome.min.css.scss">
+      <file leaf-file-name="lodash.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/vendor/lodash.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.8809524" vertical-offset="0" max-vertical-offset="50072">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1980">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="font-awesome.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/libs/assets/font-awesome/css/font-awesome.min.css">
+      <file leaf-file-name="ngDialog.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/vendor/ngDialog.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1785715" vertical-offset="0" max-vertical-offset="49984">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angular-material.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/app/angular-material.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="143990">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angular-material.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/vendor/angular-material.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="195017" max-vertical-offset="254012">
-              <caret line="8877" column="36" selection-start-line="8877" selection-start-column="35" selection-end-line="8877" selection-end-column="36" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -133,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/vendor/assets/stylesheets/landing/theme.min.css" />
         <option value="$PROJECT_DIR$/vendor/assets/stylesheets/landing/revolution.min.css" />
         <option value="$PROJECT_DIR$/config/application.rb" />
@@ -160,11 +139,9 @@
         <option value="$PROJECT_DIR$/app/controllers/app_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/app/material-design-icons.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app/config.router.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/config.lazyload.js" />
         <option value="$PROJECT_DIR$/public/app/views/layout.html" />
         <option value="$PROJECT_DIR$/app/views/app/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/app.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/directives/ui-fullscreen.js" />
         <option value="$PROJECT_DIR$/public/app/views/aside.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/controllers/material.js" />
@@ -177,13 +154,16 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/landing.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/public/assets/.sprockets-manifest-490392dfc767a7404cef1a028654c060.json" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app.js" />
         <option value="$PROJECT_DIR$/public/app/fonts/roboto/font.css" />
         <option value="$PROJECT_DIR$/public/app/libs/assets/font-awesome/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/app/font-awesome.min.css.scss" />
         <option value="$PROJECT_DIR$/public/app/libs/assets/font-awesome/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/app/app.ctrl.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/app/config.router.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/app.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/app.html.erb" />
+        <option value="$PROJECT_DIR$/public/app/scripts/config.router.js" />
       </list>
     </option>
   </component>
@@ -266,68 +246,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="threeworks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="threeworks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="threeworks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="threeworks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="threeworks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="threeworks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -342,7 +260,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="threeworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="threeworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,14 +309,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -383,40 +327,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="threeworks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="threeworks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,6 +369,14 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -475,18 +393,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/fonts" />
-      <recent name="$PROJECT_DIR$/app/assets/stylesheets/app" />
-      <recent name="$PROJECT_DIR$/public/app" />
-      <recent name="$PROJECT_DIR$/app/assets/images/app" />
-      <recent name="$PROJECT_DIR$/public/app/libs" />
+      <recent name="$PROJECT_DIR$/public/app/scripts" />
+      <recent name="$PROJECT_DIR$/public/app/scripts/directives" />
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/app/controllers" />
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/app/vendor" />
+      <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/app" />
+      <recent name="$PROJECT_DIR$/public/app/scripts" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/app/images" />
       <recent name="$PROJECT_DIR$/public/app" />
-      <recent name="$PROJECT_DIR$/app/assets/javascripts/landing" />
-      <recent name="$PROJECT_DIR$/app/assets/fonts" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: threeworks">
@@ -630,12 +548,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -643,7 +561,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22562674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22562674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -674,49 +592,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/vendor/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578908">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-          <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="644" max-vertical-offset="1870">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/production.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="264169" max-vertical-offset="264946">
-          <caret line="9015" column="0" selection-start-line="9015" selection-start-column="0" selection-end-line="9015" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.785714" vertical-offset="0" max-vertical-offset="484">
@@ -851,14 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/config.router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="10076">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/app/material-design-icons.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="65824">
@@ -871,22 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.142858" vertical-offset="0" max-vertical-offset="594">
           <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/config.lazyload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3029" max-vertical-offset="3806">
-          <caret line="147" column="78" selection-start-line="147" selection-start-column="78" selection-end-line="147" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/directives/ui-fullscreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="990">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -909,7 +760,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/controllers/material.js">
+    <entry file="file://$PROJECT_DIR$/public/app/scripts/controllers/material.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8438" max-vertical-offset="12210">
           <caret line="435" column="28" selection-start-line="435" selection-start-column="28" selection-end-line="435" selection-end-column="28" />
@@ -981,16 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1144">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/fonts/roboto/font.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
@@ -1020,7 +861,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="195017" max-vertical-offset="254012">
           <caret line="8877" column="36" selection-start-line="8877" selection-start-column="35" selection-end-line="8877" selection-end-column="36" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1065,10 +906,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/app.html.erb">
+    <entry file="file://$PROJECT_DIR$/public/bower_components/flot/API.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.714286" vertical-offset="88" max-vertical-offset="726">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="33088">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/vendor/ngDialog.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/vendor/lodash.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1980">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1081,10 +938,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/app.ctrl.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6015625" vertical-offset="440" max-vertical-offset="2618">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="924">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/app.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.892857" vertical-offset="219" max-vertical-offset="1122">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app/vendor/ocLazyLoad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21934">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/scripts/app.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2992">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/scripts/config.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18275419" vertical-offset="1112" max-vertical-offset="4004">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
           <folding />
         </state>
       </provider>
