@@ -1,0 +1,109 @@
+<div class="row">
+  <div class="m-b">
+
+    <div class="col-md-4">
+      <div class="text-center">
+        <button md-ink-ripple="" ui-sref="app.wordlists.read({id:id})" class="md-btn md-raised m-b btn-fw {{app.setting.theme.primary}}">Reading Mode</button>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="text-center">
+        <button md-ink-ripple="" ui-sref="app.wordlists.practice({id:id})" class="md-btn md-raised m-b btn-fw {{app.setting.theme.primary}}">Practice Mode</button>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="text-center">
+        <button md-ink-ripple="" ui-sref="app.wordlists.test({id:id})" class="md-btn md-raised m-b btn-fw {{app.setting.theme.primary}}">Test Mode</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-md-12">
+    <div class="table-responsive text-center">
+      <table class="table table-bordered bg-white">
+        <thead>
+        <tr>
+          <th>Alphabet</th>
+          <th>Word Count</th>
+          <th>Alphabet</th>
+          <th>Word Count</th>
+          <th>Alphabet</th>
+          <th>Word Count</th>
+          <th>Alphabet</th>
+          <th>Word Count</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>A</td>
+          <td>{{alphabets['a']}}</td>
+          <td>B</td>
+          <td>{{alphabets['b']}}</td>
+          <td>C</td>
+          <td>{{alphabets['c']}}</td>
+          <td>D</td>
+          <td>{{alphabets['d']}}</td>
+        </tr>
+        <tr>
+          <td>E</td>
+          <td>{{alphabets['e']}}</td>
+          <td>F</td>
+          <td>{{alphabets['f']}}</td>
+          <td>G</td>
+          <td>{{alphabets['g']}}</td>
+          <td>H</td>
+          <td>{{alphabets['h']}}</td>
+        </tr>
+        <tr>
+          <td>I</td>
+          <td>{{alphabets['i']}}</td>
+          <td>J</td>
+          <td>{{alphabets['j']}}</td>
+          <td>K</td>
+          <td>{{alphabets['k']}}</td>
+          <td>L</td>
+          <td>{{alphabets['l']}}</td>
+        </tr>
+        <tr>
+          <td>M</td>
+          <td>{{alphabets['m']}}</td>
+          <td>N</td>
+          <td>{{alphabets['n']}}</td>
+          <td>O</td>
+          <td>{{alphabets['o']}}</td>
+          <td>P</td>
+          <td>{{alphabets['p']}}</td>
+        </tr>
+        <tr>
+          <td>Q</td>
+          <td>{{alphabets['q']}}</td>
+          <td>R</td>
+          <td>{{alphabets['r']}}</td>
+          <td>S</td>
+          <td>{{alphabets['s']}}</td>
+          <td>T</td>
+          <td>{{alphabets['t']}}</td>
+        </tr>
+        <tr>
+          <td>U</td>
+          <td>{{alphabets['u']}}</td>
+          <td>V</td>
+          <td>{{alphabets['v']}}</td>
+          <td>W</td>
+          <td>{{alphabets['w']}}</td>
+          <td>X</td>
+          <td>{{alphabets['x']}}</td>
+        </tr>
+        <tr>
+          <td>Y</td>
+          <td>{{alphabets['y']}}</td>
+          <td>Z</td>
+          <td>{{alphabets['z']}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+

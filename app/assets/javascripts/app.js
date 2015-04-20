@@ -35,9 +35,6 @@
 //= require ./app/vendor/angular-translate-storage-local.js
 //= require ./app/vendor/loading-bar.js
 
-
-
-
 //= require ./app/app.js
 //= require ./app/app.ctrl.js
 //= require ./app/config.js

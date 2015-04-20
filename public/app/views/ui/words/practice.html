@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col-sm-3 m-b btn-groups" ng-repeat="word in words">
+      <div class="panel panel-card text-center border-{{app.setting.theme.primary}}">
+        <div class="p">
+          <div class="text-center">
+            <button md-ink-ripple="" ng-click="showWordDetails($event,word)" class="md-btn md-raised btn-fw {{app.setting.theme.primary}}">{{word.name}}</button>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>

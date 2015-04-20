@@ -363,77 +363,77 @@ app.controller('MDSidenavCtrl', function($scope, $timeout, $mdSidenav, $log) {
 app.controller('MDSubheaderCtrl', function($scope) {
     $scope.messages = [
       {
-        face : 'images/a0.jpg',
+        face : '/app/images/a0.jpg',
         what: 'Brunch this weekend?',
         who: 'Min Li Chan',
         when: '3:08PM',
         notes: " I'll be in your neighborhood doing errands"
       },
       {
-        face : 'images/a1.jpg',
+        face : '/app/images/a1.jpg',
         what: 'Brunch this weekend?',
         who: 'Min Li Chan',
         when: '3:08PM',
         notes: " I'll be in your neighborhood doing errands"
       },
       {
-        face : 'images/a2.jpg',
+        face : '/app/images/a2.jpg',
         what: 'Brunch this weekend?',
         who: 'Min Li Chan',
         when: '3:08PM',
         notes: " I'll be in your neighborhood doing errands"
       },
       {
-        face : 'images/a3.jpg',
+        face : '/app/images/a3.jpg',
         what: 'Brunch this weekend?',
         who: 'Min Li Chan',
         when: '3:08PM',
         notes: " I'll be in your neighborhood doing errands"
       },
       {
-        face : 'images/a4.jpg',
+        face : '/app/images/a4.jpg',
         what: 'Brunch this weekend?',
         who: 'Min Li Chan',
         when: '3:08PM',
         notes: " I'll be in your neighborhood doing errands"
       },
       {
-        face : 'images/a5.jpg',
+        face : '/app/images/a5.jpg',
         what: 'Brunch this weekend?',
         who: 'Min Li Chan',
         when: '3:08PM',
         notes: " I'll be in your neighborhood doing errands"
       },
       {
-        face : 'images/a6.jpg',
+        face : '/app/images/a6.jpg',
         what: 'Brunch this weekend?',
         who: 'Min Li Chan',
         when: '3:08PM',
         notes: " I'll be in your neighborhood doing errands"
       },
       {
-        face : 'images/a7.jpg',
+        face : '/app/images/a7.jpg',
         what: 'Brunch this weekend?',
         who: 'Min Li Chan',
         when: '3:08PM',
         notes: " I'll be in your neighborhood doing errands"
       },
       {
-        face : 'images/a8.jpg',
+        face : '/app/images/a8.jpg',
         what: 'Brunch this weekend?',
         who: 'Min Li Chan',
         when: '3:08PM',
         notes: " I'll be in your neighborhood doing errands"
       },
       {
-        face : 'images/a9.jpg',
+        face : '/app/images/a9.jpg',
         what: 'Brunch this weekend?',
         who: 'Min Li Chan',
         when: '3:08PM',
         notes: " I'll be in your neighborhood doing errands"
       },
       {
-        face : 'images/a0.jpg',
+        face : '/app/images/a0.jpg',
         what: 'Brunch this weekend?',
         who: 'Min Li Chan',
         when: '3:08PM',

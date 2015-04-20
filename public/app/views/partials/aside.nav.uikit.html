@@ -1,0 +1,89 @@
+<nav ui-nav>
+  <ul class="nav">
+    <li ui-sref-active="active">
+      <a md-ink-ripple ui-sref="app.dashboard">
+        <i class="fa fa-dashboard icon mdi-action-settings-input-svideo i-20"></i>
+        <span class="font-normal">Dashboard</span>
+      </a>
+    </li>
+    <li>
+      <a md-ink-ripple ui-sref="app.wordlists.list">
+        <i class="icon mdi-navigation-apps i-20"></i>
+        <span class="font-normal">Word Lists</span>
+      </a>
+    </li>
+    <li>
+      <a md-ink-ripple ui-sref="app.settings">
+        <i class="icon mdi-action-settings i-20"></i>
+        <span>Settings</span>
+      </a>
+    </li>
+
+    <li class="p p-v-sm hidden-folded">
+      <div class="m-b-sm">Theming:</div>
+      <div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'red', accent: 'deep-purple', warn: 'amber'}">
+          <span class="red col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'pink', accent: 'light-green', warn: 'lime'}">
+          <span class="pink col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'purple', accent: 'blue', warn: 'light-blue'}">
+          <span class="purple col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'deep-purple', accent: 'teal', warn: 'amber'}">
+          <span class="deep-purple col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'blue', accent: 'light-blue', warn: 'blue'}">
+          <span class="blue col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'light-blue', accent: 'purple', warn: 'deep-purple'}">
+          <span class="light-blue col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'cyan', accent: 'teal-200', warn: 'lime'}">
+          <span class="cyan col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'bg-dark', accent: 'green-300', warn: 'amber-300'}">
+          <span class="bg-dark col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'bg-white', accent: 'green', warn: 'teal'}">
+          <span class="bg-white col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'teal', accent: 'green', warn: 'teal'}">
+          <span class="teal col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'green', accent: 'green', warn: 'teal'}">
+          <span class="green col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'light-green', accent: 'green', warn: 'teal'}">
+          <span class="light-green col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'lime', accent: 'green', warn: 'teal'}">
+          <span class="lime col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'yellow', accent: 'green', warn: 'teal'}">
+          <span class="yellow col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'amber', accent: 'green', warn: 'teal'}">
+          <span class="amber col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'orange', accent: 'green', warn: 'teal'}">
+          <span class="orange col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'deep-orange', accent: 'green', warn: 'teal'}">
+          <span class="deep-orange col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'brown', accent: 'green', warn: 'teal'}">
+          <span class="brown col-xs-4 box-col"></span>
+        </div>
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'blue-grey', accent: 'green', warn: 'teal'}">
+          <span class="blue-grey col-xs-4 box-col"></span>
+        </div>
+
+        <div class="pointer box pull-left m-r-sm m-b-sm" style="width:32px;height:16px" ng-click="app.setting.theme = {primary: 'grey', accent: 'green', warn: 'teal'}">
+          <span class="grey col-xs-4 box-col"></span>
+        </div>
+      </div>
+    </li>
+  </ul>
+</nav>

@@ -1,0 +1,98 @@
+<div class="row">
+  <div class="row">
+    <div class="col-md-12">
+      <button md-ink-ripple="" ng-click="previousWord()" class="md-btn md-fab m-b {{app.setting.theme.primary}}"><i
+        class="mdi-navigation-arrow-back i-24"></i></button>
+      <button md-ink-ripple="" ng-click="nextWord()" class="md-btn md-fab m-b {{app.setting.theme.primary}} pull-right"><i
+        class="mdi-navigation-arrow-forward i-24"></i></button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="panel panel-card border-{{app.setting.theme.primary}}">
+
+
+        <a md-ink-ripple class="md-btn md-raised md-fab bg-white m-r md-fab-offset border-{{app.setting.theme.primary}} pull-right"
+          style="margin-right: 50px">{{word.id}}</a>
+        <div class="p">
+          <div class="text-center">
+            <button md-ink-ripple="" class="md-btn md-raised m-b btn-fw {{app.setting.theme.primary}}">{{word.name}}</button>
+          </div>
+          <div class="md-whiteframe-z0 bg-white border-{{app.setting.theme.primary}}">
+              <ul class="nav nav-md nav-tabs nav-lines b-{{app.setting.theme.primary}}">
+                <li class="active" ng-if="word.meanings.length>0">
+                  <a href="" data-toggle="tab" data-target="#tab_1">Meaning</a>
+                </li>
+                <li ng-if="word.examples.length>0">
+                  <a href="" data-toggle="tab" data-target="#tab_2">Examples</a>
+                </li>
+                <li ng-if="word.mnemonics.length>0">
+                  <a href="" data-toggle="tab" data-target="#tab_3">Mnemonics</a>
+                </li>
+              </ul>
+              <div class="tab-content p m-b-md b-t b-t-2x ">
+                <div role="tabpanel" class="tab-pane animated fadeIn active" id="tab_1" style="padding-bottom: 0px">
+
+                  <div class="md-list md-whiteframe-z0 bg-white  border-{{app.setting.theme.primary}}">
+                    <div class="md-list-item" ng-repeat="meaning in word.meanings">
+                      <div class="md-list-item-left circle {{app.setting.theme.primary}}">
+                        <span class="font-thin text-lg">{{$index+1}}</span>
+                      </div>
+                      <!--<div class="dropdown card-tools" style="padding-top: 10px">-->
+                        <!--<button md-ink-ripple="" data-toggle="dropdown" class="md-btn md-flat md-btn-circle">-->
+                          <!--<i class="mdi-navigation-more-vert text-md"></i>-->
+                        <!--</button>-->
+                        <!--<ul class="dropdown-menu dropdown-menu-scale pull-right pull-up text-color ">-->
+                          <!--<li><a href="" ng-click="editTodo(todo)" tabindex="0">Remove from your list</a></li>-->
+                          <!--<li><a href="" ng-click="removeTodo(todo)" tabindex="0">Flag as inappropriate</a></li>-->
+                        <!--</ul>-->
+                      <!--</div>-->
+                      <div class="md-list-item-content">
+                        <p>{{meaning.content}}</p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <div role="tabpanel" class="tab-pane animated fadeIn" id="tab_2" style="padding-bottom: 0px">
+                  <div class="md-list md-whiteframe-z0 bg-white  border-{{app.setting.theme.primary}}">
+                    <div class="md-list-item" ng-repeat="example in word.examples">
+                      <div class="md-list-item-left circle {{app.setting.theme.primary}}">
+                        <span class="font-thin text-lg">{{$index+1}}</span>
+                      </div>
+                      <div class="md-list-item-content text-justify">
+                        <p>{{example.content}}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div role="tabpanel" class="tab-pane animated fadeIn" id="tab_3" style="padding-bottom: 0px">
+                  <div>
+                    <div class="md-list md-whiteframe-z0 bg-white  border-{{app.setting.theme.primary}}">
+                      <div class="md-list-item" ng-repeat="mnemonic in word.mnemonics">
+                        <div class="md-list-item-left circle {{app.setting.theme.primary}}">
+                          <span class="font-thin text-lg">{{$index+1}}</span>
+                        </div>
+                        <div class="md-list-item-content">
+                          <p>{{mnemonic.content}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <button md-ink-ripple="" ng-click="previousWord()" class="md-btn md-fab m-b {{app.setting.theme.primary}}"><i
+        class="mdi-navigation-arrow-back i-24"></i></button>
+      <button md-ink-ripple="" ng-click="nextWord()" class="md-btn md-fab m-b {{app.setting.theme.primary}} pull-right"><i
+        class="mdi-navigation-arrow-forward i-24"></i></button>
+    </div>
+  </div>
+</div>
+</div>

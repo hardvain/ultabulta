@@ -10,12 +10,13 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
  *= require ./app/animate
  *= require ./app/font-awesome.min.css
- *= require ./app/loading-bar
  *= require ./app/angular-material
+ *= require ./app/bootstrap.min
+ *= require ./app/loading-bar
+ *= require ./app/font-awesome.min
  *= require ./app/material-design-icons
+ *= require ./app/font
  *= require ./app/app
  */

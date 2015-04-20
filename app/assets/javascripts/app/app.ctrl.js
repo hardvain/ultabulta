@@ -32,7 +32,7 @@ angular.module('app')
         },
         setting: {
           theme: {
-            primary: 'indigo',
+            primary: 'red',
             accent: 'purple',
             warn: 'amber'
           },
@@ -42,11 +42,11 @@ angular.module('app')
           content: '',
           show: false
         }
-      }
+      };
 
       $scope.setTheme = function(theme){
         $scope.app.setting.theme = theme;
-      }
+      };
 
       // save settings to local storage
       if ( angular.isDefined($localStorage.appSetting) ) {

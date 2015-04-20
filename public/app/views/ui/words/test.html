@@ -1,0 +1,74 @@
+<div class="col-md-12" ng-show="!isTestStarted">
+  <div class="panel panel-default border-{{app.setting.theme.primary}}">
+    <div class="panel-heading bg-white">
+      <h3>Test Mode</h3>
+      <small class="text-muted">You can select the type of questions you want and the type of options for those questions.
+      </small>
+    </div>
+    <div class="panel-body">
+      <form role="form" class="ng-pristine ng-valid">
+        <div class="col-md-12">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label class="col-sm-2 control-label">Question</label>
+
+              <div class="col-sm-10">
+                <select class="form-control" ng-change="questionSelected()" ng-model="selectedQuestionType">
+                  <option ng-value="opt" ng-repeat="opt in questionTypes">{{ opt }}</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label class="col-sm-2 control-label">Answer</label>
+              <div class="col-sm-10">
+                <select class="form-control" ng-disabled=isQuestionEmpty ng-model="selectedAnswerType" ng-change="answerSelected()">
+                  <option ng-value="opt" ng-repeat="opt in answerTypes">{{ opt }}</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 text-center">
+          <div class="form-group m-t-lg">
+            <button md-ink-ripple="" ng-click="startTest()" ng-disabled="isQuestionEmpty || isAnswerEmpty"
+                    class="md-btn md-raised m-b btn-fw {{app.setting.theme.primary}}">Take Test
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div ng-show="isTestStarted">
+  <div class="progress progress-striped">
+    <div class="progress-bar {{app.setting.theme.primary}}" style="width:{{progressPercentage}}%"></div>
+  </div>
+  <div class="panel panel-default border-{{app.setting.theme.primary}}">
+    <div class="panel-heading bg-white text-center">
+      <button md-ink-ripple=""
+              class="md-btn md-raised m-b btn-fw {{app.setting.theme.primary}}">{{currentQuestion}}
+      </button>
+      </small>
+    </div>
+    <div class="panel-body">
+      <form role="form" class="ng-pristine ng-valid">
+        <div class="col-md-12">
+          <div class="md-list md-whiteframe-z0 bg-white m-b border-{{app.setting.theme.primary}}">
+
+            <a ng-click="validateAnswer($index)" class="md-list-item" ng-repeat="answer in answers track by $index" ng-if="answer">
+              <div class="md-list-item-content">
+                <p>{{answer}}</p>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+
+</div>
