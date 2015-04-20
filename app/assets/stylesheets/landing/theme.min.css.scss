@@ -9334,7 +9334,10 @@ body {
 @font-face {
     font-family: FontAwesome;
     src: font-url("landing/fontawesome-webfont-v=4.2.0.eot");
-    src: font-url("landing/fontawesome-webfont-.eot#iefix&v=4.2.0") format("embedded-opentype"), url("../../fonts/fontawesome-webfont-v=4.2.0.woff") format("woff"), url("../../fonts/fontawesome-webfont-v=4.2.0.ttf") format("truetype"), url("../../fonts/fontawesome-webfont-v=4.2.0.svg#fontawesomeregular") format("svg");
+    src: font-url("landing/fontawesome-webfont-.eot#iefix&v=4.2.0") format("embedded-opentype"),
+    font-url("fontawesome-webfont-v=4.2.0.woff") format("woff"),
+    font-url("fontawesome-webfont-v=4.2.0.ttf") format("truetype"),
+    font-url("fontawesome-webfont-v=4.2.0.svg#fontawesomeregular") format("svg");
     font-weight: 400;
     font-style: normal
 }

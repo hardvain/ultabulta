@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  *= require ./app/animate
- *= require ./app/font-awesome.css
+ *= require ./app/font-awesome.min.css
  *= require ./app/loading-bar
  *= require ./app/angular-material
  *= require ./app/material-design-icons
