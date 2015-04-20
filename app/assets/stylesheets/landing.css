@@ -12,5 +12,10 @@
  *
  *= require_tree .
  *= require_self
- *= require_directory ./landing
+ *= require ./landing/bootstrap.min
+ *= require ./landing/theme.min
+ *= require ./landing/swatch-red-white.min
+ *= require ./landing/swatch-white-red.min
+ *= require ./landing/fonts.min
+ *= require ./landing/demo.min
  */

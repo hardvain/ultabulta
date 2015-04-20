@@ -13,4 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree ../../../vendor/assets/javascripts/landing
+//= require ./landing/packages.min
+//= require ./landing/theme.min
+//= require ./landing/switcher.min
