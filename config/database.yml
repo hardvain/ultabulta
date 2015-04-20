@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: threeworks_production
-  username: threeworks
-  password: <%= ENV['THREEWORKS_DATABASE_PASSWORD'] %>
