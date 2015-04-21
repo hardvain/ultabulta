@@ -20,7 +20,7 @@ app.controller('PracticeWordsController', function ($scope, $timeout, $q,$mdDial
   $scope.showWordDetails = function(ev,word) {
     $mdDialog.show({
       controller: DialogController,
-      templateUrl: 'views/ui/words/word.tmpl.html',
+      templateUrl: '/app/views/ui/words/word.tmpl.html',
       targetEvent: ev,
       locals:{word:word,colour:$scope.app.setting.theme.primary}
     });

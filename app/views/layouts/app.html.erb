@@ -20,7 +20,21 @@
 
   <%= csrf_meta_tags %>
 </head>
-<body ng-app="app">
+<body ng-app="app" ng-controller="AppCtrl">
+<div ng-show="loading">
+
+  <div id="pgloading" class="red">
+    <div class="loadingwrap">
+      <ul class="bokeh">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
 <%= yield %>
 
 <script src="/app/scripts/app.js"></script>
