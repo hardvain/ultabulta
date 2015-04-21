@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :words do
-    resources :mnemonics, :examples, :meanings
+  namespace 'api' do
+    resources :words do
+      resources :mnemonics, :examples, :meanings
+    end
   end
 
   get '/app' => 'app#index'

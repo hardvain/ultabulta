@@ -62,7 +62,7 @@ angular.module('app')
           data: {title: 'Word Lists - Test Mode'},
           resolve: {
             word : function($http,$stateParams){
-              return $http.get("/words/"+$stateParams.id+".json")
+              return $http.get("/api/words/"+$stateParams.id+".json")
             },
             deps: load('/app/scripts/controllers/words/WordController.js').deps
           }
@@ -90,9 +90,8 @@ angular.module('app')
           controller: 'WordListController',
           data: {title: 'Word List Statistics'},
           resolve:{
-            words : function($http,$stateParams,$localStorage){
-              return $http.get("/words.json?page="
-              +$stateParams.id+"&count="+$localStorage.wordsPerPage)
+            words : function(WordsService,$stateParams){
+              return WordsService.getWords($stateParams.id);
             },
             deps: load('/app/scripts/controllers/words/WordListController.js').deps
           }
@@ -103,9 +102,9 @@ angular.module('app')
           controller: 'ReadWordsController',
           data: {title: 'Read Mode'},
           resolve:{
-            words : function($http,$stateParams,$localStorage){
-              return $http.get("/words.json?page="
-              +$stateParams.id+"&count="+$localStorage.wordsPerPage)
+            words : function(WordsService,$stateParams){
+              var data = WordsService.getWords($stateParams.id);
+              return data;
             },
             deps: load('/app/scripts/controllers/words/ReadWordsController.js').deps
           }
@@ -116,9 +115,9 @@ angular.module('app')
           controller: 'PracticeWordsController',
           data: {title: 'Practice Mode'},
           resolve:{
-            words : function($http,$stateParams,$localStorage){
-              return $http.get("/words.json?page="
-              +$stateParams.id+"&count="+$localStorage.wordsPerPage)
+            words : function(WordsService,$stateParams){
+              var data = WordsService.getWords($stateParams.id);
+              return data;
             },
             deps: load('/app/scripts/controllers/words/PracticeWordsController.js').deps
           }
@@ -129,9 +128,9 @@ angular.module('app')
           controller: 'TestWordsController',
           data: {title: 'Test Mode'},
           resolve:{
-            words : function($http,$stateParams,$localStorage){
-              return $http.get("/words.json?page="
-              +$stateParams.id+"&count="+$localStorage.wordsPerPage)
+            words : function(WordsService,$stateParams){
+              var data = WordsService.getWords($stateParams.id);
+                return data;
             },
             deps: load('/app/scripts/controllers/words/TestWordsController.js').deps
           }
