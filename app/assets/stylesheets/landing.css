@@ -11,10 +11,16 @@
  * file per style scope.
  *
  *= require_self
- *= require ./landing/bootstrap.min
- *= require ./landing/theme.min
- *= require ./landing/swatch-red-white.min
- *= require ./landing/swatch-white-red.min
- *= require ./landing/fonts.min
- *= require ./landing/demo.min
+ *= require ./landing/us.woocommerce-ver=1.4
+ *= require ./landing/us.woocommerce-responsive-ver=1.4
+ *= require ./landing/motioncss-ver=1.4
+ *= require ./landing/motioncss-responsive-ver=1.4
+ *= require ./landing/font-awesome-ver=4.3.0
+ *= require ./landing/font-mdfi-ver=1
+ *= require ./landing/magnific-popup-ver=1
+ *= require ./landing/fotorama-ver=1
+ *= require ./landing/style-ver=1.4
+ *= require ./landing/responsive-ver=1.4
+ *= require ./landing/us_zephyr_custom_styles-ver=1.4
+ *= require ./landing/Defaults-ver=4.1.1
  */
