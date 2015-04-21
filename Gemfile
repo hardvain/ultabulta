@@ -28,7 +28,7 @@ gem 'devise'
 gem 'bcrypt', '~> 3.1.7'
 gem 'kaminari'
 
-
+gem 'passenger'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
