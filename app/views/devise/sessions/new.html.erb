@@ -5,19 +5,13 @@
         <div class="center-block w-xxl w-auto-xs p-v-md">
           <div class="navbar">
             <div class="navbar-brand m-t-lg text-center">
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" style="
-              width: 24px; height: 24px;">
-                <path d="M 50 0 L 100 14 L 92 80 Z" fill="rgba(139, 195, 74, 0.5)"></path>
-                <path d="M 92 80 L 50 0 L 50 100 Z" fill="rgba(139, 195, 74, 0.8)"></path>
-                <path d="M 8 80 L 50 0 L 50 100 Z" fill="#fff"></path>
-                <path d="M 50 0 L 8 80 L 0 14 Z" fill="rgba(255, 255, 255, 0.6)"></path>
-              </svg>
-              <span class="m-l inline">3 Works</span>
+
+              <span class="m-l inline">Ulta Bulta</span>
             </div>
           </div>
           <div class="p-lg panel md-whiteframe-z1 text-color m">
             <div class="m-b text-sm">
-              Sign in to your 3 Works Account
+              Sign in to your Ulta Bulta Account
             </div>
 
             <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
@@ -39,14 +33,14 @@
                     <div class="m-b-md">
                       <label class="md-check">
                         <input name="user[remember_me]" type="hidden" value="0">
-                        <input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me"><i class="red"></i>
+                        <input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me"><i class="deep-purple"></i>
                         <label for="user_remember_me">Remember me</label>
                       </label>
                     </div>
                 <% end -%>
 
                 <div class="actions">
-                  <%= f.submit "Log in", :class => "md-btn md-raised red btn-block p-h-md" %>
+                  <%= f.submit "Log in", :class => "md-btn md-raised deep-purple btn-block p-h-md" %>
                 </div>
             <% end %>
           </div>

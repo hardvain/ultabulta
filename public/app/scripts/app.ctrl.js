@@ -18,7 +18,7 @@ angular.module('app')
                 isSmartDevice($window) && angular.element($window.document.body).addClass('smart');
 // config
                 $scope.app = {
-                    name: 'GRE Words',
+                    name: 'Ulta Bulta',
                     version: '1.0',
                     // for chart colors
                     color: {
