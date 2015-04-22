@@ -210,6 +210,28 @@ h3 {
     background: #f5a61e
 }
 
+
+
+.btn-white {
+  background: #ffffff;
+  color: #000
+}
+
+.btn-white:hover, .btn-white:focus {
+  background: #ffffff;
+  color: #000
+}
+
+.btn-white.btn-effect:hover, .btn-white.btn-effect:focus {
+  background: #ffffff
+}
+
+.btn-white.btn-effect:before {
+  background: #ffffff
+}
+
+
+
 .btn-gray {
     background: #bfbfbf;
     color: #fff
