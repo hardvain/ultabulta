@@ -13,7 +13,7 @@
 
 
         <a md-ink-ripple class="md-btn md-raised md-fab bg-white m-r md-fab-offset border-{{app.setting.theme.primary}} pull-right"
-          style="margin-right: 50px">{{word.id}}</a>
+          style="margin-right: 50px"><strong>{{word.id}}</strong></a>
         <div class="p">
           <div class="text-center">
             <button md-ink-ripple="" class="md-btn md-raised m-b btn-fw {{app.setting.theme.primary}}">{{word.name}}</button>
@@ -36,17 +36,17 @@
                   <div class="md-list md-whiteframe-z0 bg-white  border-{{app.setting.theme.primary}}">
                     <div class="md-list-item" ng-repeat="meaning in word.meanings">
                       <div class="md-list-item-left circle {{app.setting.theme.primary}}">
-                        <span class="font-thin text-lg">{{$index+1}}</span>
+                        <span class="font-thin text-lg"><strong>{{$index+1}}</strong></span>
                       </div>
-                      <!--<div class="dropdown card-tools" style="padding-top: 10px">-->
-                        <!--<button md-ink-ripple="" data-toggle="dropdown" class="md-btn md-flat md-btn-circle">-->
-                          <!--<i class="mdi-navigation-more-vert text-md"></i>-->
-                        <!--</button>-->
-                        <!--<ul class="dropdown-menu dropdown-menu-scale pull-right pull-up text-color ">-->
-                          <!--<li><a href="" ng-click="editTodo(todo)" tabindex="0">Remove from your list</a></li>-->
-                          <!--<li><a href="" ng-click="removeTodo(todo)" tabindex="0">Flag as inappropriate</a></li>-->
-                        <!--</ul>-->
-                      <!--</div>-->
+                      <div class="dropdown card-tools" style="padding-top: 10px">
+                        <button md-ink-ripple="" data-toggle="dropdown" class="md-btn md-flat md-btn-circle">
+                          <i class="mdi-navigation-more-vert text-md"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-scale pull-right pull-up text-color ">
+                          <li><a href="" ng-click="edit(meaning.id,'meaning')" tabindex="0">Edit</a></li>
+                          <li><a href="" ng-click="delete(meaning.id,'meaning')" tabindex="0">Delete</a></li>
+                        </ul>
+                      </div>
                       <div class="md-list-item-content">
                         <p>{{meaning.content}}</p>
                       </div>
@@ -58,12 +58,22 @@
                 <div role="tabpanel" class="tab-pane animated fadeIn" id="tab_2" style="padding-bottom: 0px">
                   <div class="md-list md-whiteframe-z0 bg-white  border-{{app.setting.theme.primary}}">
                     <div class="md-list-item" ng-repeat="example in word.examples">
-                      <div class="md-list-item-left circle {{app.setting.theme.primary}}">
-                        <span class="font-thin text-lg">{{$index+1}}</span>
-                      </div>
-                      <div class="md-list-item-content text-justify">
-                        <p>{{example.content}}</p>
-                      </div>
+                          <div class="md-list-item-left circle {{app.setting.theme.primary}}">
+                            <span class="font-thin text-lg"><strong>{{$index+1}}</strong></span>
+                          </div>
+                        <div class="md-list-item-content text-justify">
+                          <p>{{example.content}}</p>
+                        </div>
+                        <div class="dropdown card-tools" style="padding-top: 10px">
+                          <button md-ink-ripple="" data-toggle="dropdown" class="md-btn md-flat md-btn-circle">
+                            <i class="mdi-navigation-more-vert text-md"></i>
+                          </button>
+                          <ul class="dropdown-menu dropdown-menu-scale pull-right pull-up text-color ">
+                            <li><a href="" ng-click="edit(example.id,'example')" tabindex="0">Edit</a></li>
+                            <li><a href="" ng-click="delete(example.id,'example')" tabindex="0">Delete</a></li>
+                          </ul>
+                        </div>
+
                     </div>
                   </div>
                 </div>
@@ -72,7 +82,16 @@
                     <div class="md-list md-whiteframe-z0 bg-white  border-{{app.setting.theme.primary}}">
                       <div class="md-list-item" ng-repeat="mnemonic in word.mnemonics">
                         <div class="md-list-item-left circle {{app.setting.theme.primary}}">
-                          <span class="font-thin text-lg">{{$index+1}}</span>
+                          <span class="font-thin text-lg"><strong>{{$index+1}}</strong></span>
+                        </div>
+                        <div class="dropdown card-tools" style="padding-top: 10px">
+                          <button md-ink-ripple="" data-toggle="dropdown" class="md-btn md-flat md-btn-circle">
+                            <i class="mdi-navigation-more-vert text-md"></i>
+                          </button>
+                          <ul class="dropdown-menu dropdown-menu-scale pull-right pull-up text-color ">
+                            <li><a href="" ng-click="edit(mnemonic.id,'mnemonic')" tabindex="0">Edit</a></li>
+                            <li><a href="" ng-click="delete(mnemonic.id,'mnemonic')" tabindex="0">Delete</a></li>
+                          </ul>
                         </div>
                         <div class="md-list-item-content">
                           <p>{{mnemonic.content}}</p>
