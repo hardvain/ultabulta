@@ -1,25 +1,25 @@
 <div class="row">
   <div class="row">
     <div class="col-md-12">
-      <button md-ink-ripple="" ng-click="previousWord()" class="md-btn md-fab m-b {{app.setting.theme.primary}}"><i
+      <button md-ink-ripple="" ng-click="previousWord()" class="md-btn md-fab m-b deep-purple"><i
         class="mdi-navigation-arrow-back i-24"></i></button>
-      <button md-ink-ripple="" ng-click="nextWord()" class="md-btn md-fab m-b {{app.setting.theme.primary}} pull-right"><i
+      <button md-ink-ripple="" ng-click="nextWord()" class="md-btn md-fab m-b deep-purple pull-right"><i
         class="mdi-navigation-arrow-forward i-24"></i></button>
     </div>
   </div>
   <div class="row">
     <div class="col-sm-12">
-      <div class="panel panel-card border-{{app.setting.theme.primary}}">
+      <div class="panel panel-card border-deep-purple">
 
 
-        <a md-ink-ripple class="md-btn md-raised md-fab bg-white m-r md-fab-offset border-{{app.setting.theme.primary}} pull-right"
+        <a md-ink-ripple class="md-btn md-raised md-fab bg-white m-r md-fab-offset border-deep-purple pull-right"
           style="margin-right: 50px"><strong>{{word.id}}</strong></a>
         <div class="p">
           <div class="text-center">
-            <button md-ink-ripple="" class="md-btn md-raised m-b btn-fw {{app.setting.theme.primary}}">{{word.name}}</button>
+            <button md-ink-ripple="" class="md-btn md-raised m-b btn-fw deep-purple">{{word.name}}</button>
           </div>
-          <div class="md-whiteframe-z0 bg-white border-{{app.setting.theme.primary}}">
-              <ul class="nav nav-md nav-tabs nav-lines b-{{app.setting.theme.primary}}">
+          <div class="md-whiteframe-z0 bg-white border-deep-purple">
+              <ul class="nav nav-md nav-tabs nav-lines b-deep-purple">
                 <li class="active" ng-if="word.meanings.length>0">
                   <a href="" data-toggle="tab" data-target="#tab_1">Meaning</a>
                 </li>
@@ -33,9 +33,9 @@
               <div class="tab-content p m-b-md b-t b-t-2x ">
                 <div role="tabpanel" class="tab-pane animated fadeIn active" id="tab_1" style="padding-bottom: 0px">
 
-                  <div class="md-list md-whiteframe-z0 bg-white  border-{{app.setting.theme.primary}}">
+                  <div class="md-list md-whiteframe-z0 bg-white  border-deep-purple">
                     <div class="md-list-item" ng-repeat="meaning in word.meanings">
-                      <div class="md-list-item-left circle {{app.setting.theme.primary}}">
+                      <div class="md-list-item-left circle deep-purple">
                         <span class="font-thin text-lg"><strong>{{$index+1}}</strong></span>
                       </div>
                       <div class="dropdown card-tools" style="padding-top: 10px">
@@ -56,9 +56,9 @@
 
                 </div>
                 <div role="tabpanel" class="tab-pane animated fadeIn" id="tab_2" style="padding-bottom: 0px">
-                  <div class="md-list md-whiteframe-z0 bg-white  border-{{app.setting.theme.primary}}">
+                  <div class="md-list md-whiteframe-z0 bg-white  border-deep-purple">
                     <div class="md-list-item" ng-repeat="example in word.examples">
-                          <div class="md-list-item-left circle {{app.setting.theme.primary}}">
+                          <div class="md-list-item-left circle deep-purple">
                             <span class="font-thin text-lg"><strong>{{$index+1}}</strong></span>
                           </div>
                         <div class="md-list-item-content text-justify">
@@ -79,9 +79,9 @@
                 </div>
                 <div role="tabpanel" class="tab-pane animated fadeIn" id="tab_3" style="padding-bottom: 0px">
                   <div>
-                    <div class="md-list md-whiteframe-z0 bg-white  border-{{app.setting.theme.primary}}">
+                    <div class="md-list md-whiteframe-z0 bg-white  border-deep-purple">
                       <div class="md-list-item" ng-repeat="mnemonic in word.mnemonics">
-                        <div class="md-list-item-left circle {{app.setting.theme.primary}}">
+                        <div class="md-list-item-left circle deep-purple">
                           <span class="font-thin text-lg"><strong>{{$index+1}}</strong></span>
                         </div>
                         <div class="dropdown card-tools" style="padding-top: 10px">
@@ -107,9 +107,9 @@
   </div>
   <div class="row">
     <div class="col-sm-12">
-      <button md-ink-ripple="" ng-click="previousWord()" class="md-btn md-fab m-b {{app.setting.theme.primary}}"><i
+      <button md-ink-ripple="" ng-click="previousWord()" class="md-btn md-fab m-b deep-purple"><i
         class="mdi-navigation-arrow-back i-24"></i></button>
-      <button md-ink-ripple="" ng-click="nextWord()" class="md-btn md-fab m-b {{app.setting.theme.primary}} pull-right"><i
+      <button md-ink-ripple="" ng-click="nextWord()" class="md-btn md-fab m-b deep-purple pull-right"><i
         class="mdi-navigation-arrow-forward i-24"></i></button>
     </div>
   </div>
