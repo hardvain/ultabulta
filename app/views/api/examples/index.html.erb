@@ -15,7 +15,7 @@
       <tr>
         <td><%= example.content %></td>
         <td><%= link_to 'Show', example %></td>
-        <td><%= link_to 'Edit', edit_example_path(example) %></td>
+        <td><%= link_to 'Edit', edit_api_word_example_path(example) %></td>
         <td><%= link_to 'Destroy', example, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
@@ -24,4 +24,4 @@
 
 <br>
 
-<%= link_to 'New Example', new_example_path %>
+<%= link_to 'New Example',new_api_word_example_path %>

@@ -1,5 +1,5 @@
 
-app.controller('WordController', function ($scope, $timeout, $q, $stateParams, $state, ngDialog,word) {
+app.controller('WordController', function ($scope, $timeout, $q, $stateParams, $state, ngDialog,word,Restangular) {
   $scope.word = word.data;
   $scope.id = $stateParams.id;
   $scope.previousWord = function () {
@@ -11,7 +11,8 @@ app.controller('WordController', function ($scope, $timeout, $q, $stateParams, $
   };
 
   $scope.delete = function(id,type){
-    console.log('deleting '+ id +' type: '+type);
+    var delete2 = Restangular.one('words', $scope.id).one(type, id).remove();
+    console.log(delete2)
   };
 
   $scope.edit = function(id,type){

@@ -15,7 +15,7 @@
       <tr>
         <td><%= meaning.content %></td>
         <td><%= link_to 'Show', meaning %></td>
-        <td><%= link_to 'Edit', edit_meaning_path(meaning) %></td>
+        <td><%= link_to 'Edit',edit_api_word_meaning_path(meaning) %></td>
         <td><%= link_to 'Destroy', meaning, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
@@ -24,4 +24,4 @@
 
 <br>
 
-<%= link_to 'New Meaning', new_meaning_path %>
+<%= link_to 'New Meaning',new_api_word_meaning_path%>

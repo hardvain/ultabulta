@@ -1,4 +1,4 @@
-class ExamplesController < ApplicationController
+class Api::ExamplesController < ApplicationController
   before_action :set_example, only: [:show, :edit, :update, :destroy]
   before_filter :load_word
   # GET /examples

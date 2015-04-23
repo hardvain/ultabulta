@@ -15,7 +15,7 @@
       <tr>
         <td><%= mnemonic.content %></td>
         <td><%= link_to 'Show', mnemonic %></td>
-        <td><%= link_to 'Edit', edit_mnemonic_path(mnemonic) %></td>
+        <td><%= link_to 'Edit',edit_api_word_mnemonic_path(mnemonic) %></td>
         <td><%= link_to 'Destroy', mnemonic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
@@ -24,4 +24,4 @@
 
 <br>
 
-<%= link_to 'New Mnemonic', new_mnemonic_path %>
+<%= link_to 'New Mnemonic',new_api_word_mnemonic_path%>

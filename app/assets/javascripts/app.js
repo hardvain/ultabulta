@@ -23,6 +23,7 @@
 //= require ./app/vendor/angular-material.js
 //= require ./app/vendor/ngDialog.min
 //= require ./app/vendor/lodash.min
+//= require ./app/vendor/restangular
 
 //= require ./app/vendor/angular-ui-router.js
 //= require ./app/vendor/ngStorage.js

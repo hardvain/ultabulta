@@ -1,4 +1,4 @@
-class MeaningsController < ApplicationController
+class Api::MeaningsController < ApplicationController
   before_action :set_meaning, only: [:show, :edit, :update, :destroy]
   before_filter :load_word
   # GET /meanings

@@ -128,5 +128,8 @@ angular.module('app')
 
         }
     ])
+    .config(function(RestangularProvider){
+        RestangularProvider.setBaseUrl('/api');
+    });
 
 

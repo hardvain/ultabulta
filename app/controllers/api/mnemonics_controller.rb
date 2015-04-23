@@ -1,4 +1,4 @@
-class MnemonicsController < ApplicationController
+class Api::MnemonicsController < ApplicationController
   before_action :set_mnemonic, only: [:show, :edit, :update, :destroy]
   before_filter :load_word
   # GET /mnemonics
