@@ -21,7 +21,7 @@ app.controller('TestWordsController', function ($scope, $timeout, $q,$stateParam
   $scope.validateAnswer = function(selectedAnswerIndex){
 
     if(!($scope.answers[selectedAnswerIndex] === $scope.currentAnswer)){
-      $scope.wrongAnswerIds.push(currentWord['id']);
+      $scope.wrongAnswerIds.push($scope.currentWord['id']);
     }
     $scope.proceed();
   };
@@ -40,7 +40,7 @@ app.controller('TestWordsController', function ($scope, $timeout, $q,$stateParam
     $scope.progressPercentage = $scope.words.length / randomizedQnIndices.length;
     if(randomizedQnIndices.length > 0){
       var currentQuestionIndex = randomizedQnIndices.pop();
-      var currentWord = _.where($scope.words, {id: currentQuestionIndex})[0];
+      $scope.currentWord = _.where($scope.words, {id: currentQuestionIndex})[0];
       if ($scope.isRandomSelected){
         var collection = ['Word', 'Meanings', 'Examples'];
         $scope.selectedQuestionType = _.shuffle(collection)[0];
@@ -50,11 +50,11 @@ app.controller('TestWordsController', function ($scope, $timeout, $q,$stateParam
         $scope.selectedAnswerType = _.shuffle(collection)[0];
       }
       if ($scope.selectedQuestionType === 'Word') {
-        $scope.currentQuestion = currentWord.name;
+        $scope.currentQuestion = $scope.currentWord.name;
       } else {
-        $scope.currentQuestion = currentWord[$scope.selectedQuestionType.toLowerCase()][0].content.replace(currentWord['word']," _______ ");
+        $scope.currentQuestion = $scope.currentWord[$scope.selectedQuestionType.toLowerCase()][0].content.replace($scope.currentWord['word']," _______ ");
       }
-      populateRandomAnswers(currentWord['id']);
+      populateRandomAnswers($scope.currentWord['id']);
     } else {
       console.log($scope.wrongAnswerIds);
       $state.go('app.wordlists.show',{id:$stateParams.id});
