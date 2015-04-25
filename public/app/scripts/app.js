@@ -27,6 +27,5 @@ angular
     'ui.jp',
     'pascalprecht.translate',
     'oc.lazyLoad',
-    'ngDialog',
-    'restangular'
+    'ngDialog'
   ]);
