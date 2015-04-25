@@ -96,7 +96,6 @@ app.controller('TestWordsController', function ($scope, $timeout, $q, $statePara
             }
         });
         $scope.answers = _.shuffle($scope.answers);
-        console.log($scope.answers);
 
     };
 
