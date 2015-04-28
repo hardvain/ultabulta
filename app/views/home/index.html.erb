@@ -1,2 +1,62 @@
-<div ui-view ng-show="!loading" >
+
+<div class="ng-scope" aria-hidden="false">  <!-- aside -->
+  <!-- ngIf: !hideAside -->
+  <!-- / aside -->
+
+  <!-- content -->
+  <!-- uiView: content@ --><div id="content" class="app-content ng-scope" role="main" ui-view="content@"><div class="box ng-scope">
+  <div class="navbar md-whiteframe-z1 no-radius deep-purple" style="height: 64px" ng-class="$state.current.data.theme ? $state.current.data.theme.primary : app.setting.theme.primary">
+    <!-- ngIf: !hideAside -->
+    <a md-ink-ripple="" class="navbar-item pull-left ng-hide" ng-click="goBack()" ng-show="$state.current.data.child" tabindex="0" aria-hidden="true"><i class="mdi-navigation-arrow-back i-24"></i></a>
+    <div class="navbar-item pull-left h4 ng-binding" ng-bind="$state.current.data.title">Ulta Bulta</div>
+
+    <ul class="nav navbar-tool pull-right" ng-hide="$state.current.data.child">
+      <li>
+        <a md-ink-ripple="" href="https://github.com/hardvain" target="_blank" data-toggle="modal">
+          <i class="fa fa-github i-24"></i>
+        </a>
+      </li>
+      <li>
+        <a md-ink-ripple="" href="https://www.facebook.com/aravindhs3389" target="_blank">
+          <i class="fa fa-facebook i-24"></i>
+        </a>
+      </li>
+      <li>
+        <a md-ink-ripple="" href="https://twitter.com/hardvain" target="_blank">
+          <i class="fa fa-twitter i-24"></i>
+        </a>
+      </li>
+      <li class="dropdown ng-hide" ng-show="pageOptions.length > 0" aria-hidden="true">
+        <a md-ink-ripple="" data-toggle="dropdown">
+          <i class="mdi-navigation-more-vert i-24"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-scale pull-right pull-up text-color">
+          <!-- ngRepeat: option in pageOptions -->
+        </ul>
+      </li>
+    </ul>
+    <!-- uiView: navbar@ --><div class="pull-right ng-scope" ui-view="navbar@"></div>
+  </div>
+  <div class="box-row deep-purple">
+    <div class="box-cell">
+      <!-- uiView:  --><div class="box-inner padding ng-scope" ui-view=""><div class="row vertical-center-row ng-scope">
+      <div class="col-lg-12">
+        <div class="row ">
+          <div class="col-md-12 text-center" style="padding-top: 150px">
+            <div class="row"><h1>A whole new way to improve your vocabulary</h1></div>
+            <div class="row text-center">
+              <a md-ink-ripple="" href="/app" class="md-btn md-raised m-b btn-lg btn-fw bg-white" style="color: #000000">
+                Get Started
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div></div>
+    </div>
+  </div>
+</div>
+</div>
+  <!-- / content -->
+
 </div>

@@ -97,6 +97,7 @@ angular.module('app')
 
                         $rootScope.loading = false;
                         $rootScope.pageOptions = [];
+
                     });
 
                 $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams) {
