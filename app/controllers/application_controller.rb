@@ -11,7 +11,7 @@ class ApplicationController < ActionController::Base
     if devise_controller?
       "devise"
     else
-      "landing"
+      "app"
     end
   end
 
@@ -20,7 +20,7 @@ class ApplicationController < ActionController::Base
     if request.referer == sign_in_url
       super
     else
-      "/app"
+      "/#/dashboard"
     end
   end
 end

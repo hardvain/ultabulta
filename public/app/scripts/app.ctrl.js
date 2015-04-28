@@ -125,9 +125,9 @@ angular.module('app')
                 }
             };
             $rootScope.setAppSettings();
-
+            $rootScope.hideAside = false;
         }
-    ])
+    ]);
 
 
 

@@ -37,11 +37,19 @@ angular.module('app')
             }
           }
         })
+          .state('app.home', {
+            url: '/home',
+            templateUrl: '/app/views/pages/home.html',
+            data: {title: 'Ulta Bulta'},
+            controller:'HomeController',
+            resolve: load(['/app/scripts/controllers/home.js'])
+          })
         .state('app.dashboard', {
           url: '/dashboard',
           templateUrl: '/app/views/pages/dashboard.html',
           data: {title: 'Dashboard'},
-          resolve: load(['/app/scripts/controllers/chart.js', '/app/scripts/controllers/vectormap.js'])
+          controller:'DashboardController',
+          resolve: load(['/app/scripts/controllers/dashboard.js','/app/scripts/controllers/chart.js', '/app/scripts/controllers/vectormap.js'])
         })
         .state('app.settings', {
           url: '/settings',
