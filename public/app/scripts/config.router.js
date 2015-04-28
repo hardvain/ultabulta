@@ -20,11 +20,11 @@ angular.module('app')
   ['$stateProvider', '$urlRouterProvider', 'MODULE_CONFIG',
     function ($stateProvider, $urlRouterProvider, MODULE_CONFIG) {
       $urlRouterProvider
-        .otherwise('/app/dashboard');
+        .otherwise('/dashboard');
       $stateProvider
         .state('app', {
           abstract: true,
-          url: '/app',
+          url: '',
           views: {
             '': {
               templateUrl: '/app/views/layout.html'
