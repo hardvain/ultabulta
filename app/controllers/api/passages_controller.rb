@@ -1,10 +1,11 @@
 class Api::PassagesController < ApplicationController
   before_action :set_passage, only: [:show, :edit, :update, :destroy]
+  after_filter :set_headers, :authenticate_user!
 
   # GET /passages
   # GET /passages.json
   def index
-    @passages = Passage.all
+    @passages = Passage.page(params[:page]).per(params[:count])
   end
 
   # GET /passages/1
@@ -71,4 +72,11 @@ class Api::PassagesController < ApplicationController
     def passage_params
       params.require(:passage).permit(:content, :passage_type)
     end
+  def set_headers
+    headers['Access-Control-Allow-Origin'] = '*'
+    headers['Access-Control-Expose-Headers'] = 'ETag'
+    headers['Access-Control-Allow-Methods'] = 'GET, POST, PATCH, PUT, DELETE, OPTIONS, HEAD'
+    headers['Access-Control-Allow-Headers'] = '*,x-requested-with,Content-Type,If-Modified-Since,If-None-Match'
+    headers['Access-Control-Max-Age'] = '86400'
+  end
 end
