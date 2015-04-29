@@ -5,7 +5,7 @@ class Api::PassagesController < ApplicationController
   # GET /passages
   # GET /passages.json
   def index
-    @passages = Passage.page(params[:page]).per(params[:count])
+    @passages = Passage.includes(:questions).page(params[:page]).per(params[:count])
   end
 
   # GET /passages/1
