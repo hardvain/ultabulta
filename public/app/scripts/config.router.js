@@ -85,8 +85,8 @@ angular.module('app')
           controller: 'WordListsController',
           data: {title: 'Word Lists - Test Mode'},
           resolve:{
-            wordsCount : function(){
-              return 4716;
+            wordsCount :function(WordsService){
+              return WordsService.count();
             },
             deps: load(['/app/scripts/controllers/words/WordListsController.js','/app/scripts/directives/range.js']).deps
           }
@@ -110,8 +110,7 @@ angular.module('app')
           data: {title: 'Read Mode'},
           resolve:{
             words : function(WordsService,$stateParams){
-              var data = WordsService.getWords($stateParams.id);
-              return data;
+              return WordsService.getWords($stateParams.id);
             },
             deps: load('/app/scripts/controllers/words/ReadWordsController.js').deps
           }

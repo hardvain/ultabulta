@@ -1,14 +1,19 @@
 Rails.application.routes.draw do
   devise_for :users
   namespace 'api' do
+    get 'words/count' => 'words#count'
+
     resources :words do
       resources :mnemonics, :examples, :meanings
     end
-     resources :passages do
+    get 'passages/count' => 'passages#count'
+
+    resources :passages do
        resources :questions do
          resources :answers
        end
      end
+
   end
 
   get '/app' => 'app#index'
