@@ -1,25 +1,34 @@
 file = IO.readlines("../lib/assets/rc_passages")
 passages=[]
-current_passage=[]
+current_passage={questions:[],passage:""}
 file.each_with_index do |line,index|
   puts index
-  chars = line[0] << line[1]
-  type = ""
-  if chars == '17'  || chars == '18' ||chars == '19' ||chars == '20' ||
-      chars == '21' || chars == '22' ||chars == '23' ||chars == '24' ||
-      chars == '25' || chars == '26' ||chars == '27' ||
-      chars == '(A' || chars == '(B' ||chars == '(C' ||chars == '(D' ||
-      chars == '(E' || chars[0] == 'I.' || chars[0] == 'II.' || chars[0] == 'III.'
-    type = "QA"
-  else
-    type = "P"
-  end
+  if line != "\n"
+    chars = line[0] << line[1]
+    type = ""
+    if chars == 'Q.'
+      type = "Q"
+    elsif chars == '**'
+      type = "A"
+    else
+      type = "P"
+    end
 
-  if type == "P"
-    passages << {index: (passages.count +1), passage: current_passage}
-    current_passage=[]
+    if type == "P"
+      passages << current_passage
+      current_passage={questions:[],passage:""}
+      current_passage[:passage] = line
+    elsif type == "Q"
+      current_passage[:questions] << {question:line}
+    elsif type=="A"
+      last_question = current_passage[:questions].last
+      if last_question[:answers] == nil
+        last_question[:answers]=[]
+      end
+
+      last_question[:answers] << line
+    end
   end
-  current_passage << line
 
 end
 

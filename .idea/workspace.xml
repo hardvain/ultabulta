@@ -15,7 +15,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/threeworks@rc.coverage" NAME="rc Coverage Results" MODIFIED="1430292440241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" MODULE_NAME="threeworks" />
+    <SUITE FILE_PATH="coverage/threeworks@rc.coverage" NAME="rc Coverage Results" MODIFIED="1430298504123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" MODULE_NAME="threeworks" />
     <SUITE FILE_PATH="coverage/threeworks@Production__threeworks.coverage" NAME="Production: threeworks Coverage Results" MODIFIED="1430236124225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="threeworks" />
     <SUITE FILE_PATH="coverage/threeworks@Development__threeworks.coverage" NAME="Development: threeworks Coverage Results" MODIFIED="1430292225490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="threeworks" />
   </component>
@@ -101,31 +101,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rc.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rc.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/rc.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7098901" vertical-offset="425" max-vertical-offset="880">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rc_answers" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/assets/rc_answers">
+      <file leaf-file-name="ruby-debug-ide.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.4/gems/ruby-debug-ide-0.4.23/lib/ruby-debug-ide.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="37444">
-              <caret line="1674" column="5" selection-start-line="1674" selection-start-column="5" selection-end-line="1674" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1741" max-vertical-offset="3850">
+              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rc_passages" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rc_passages" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/assets/rc_passages">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="261.09653" vertical-offset="188" max-vertical-offset="204292">
-              <caret line="9230" column="2" selection-start-line="9230" selection-start-column="2" selection-end-line="9230" selection-end-column="2" />
+            <state vertical-scroll-proportion="-1.3707865" vertical-offset="79012" max-vertical-offset="204292">
+              <caret line="3597" column="1" selection-start-line="3597" selection-start-column="1" selection-end-line="3597" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -184,9 +184,9 @@
         <option value="$PROJECT_DIR$/public/app/scripts/config.router.js" />
         <option value="$PROJECT_DIR$/public/app/views/partials/aside.nav.uikit.html" />
         <option value="$PROJECT_DIR$/public/app/views/aside.html" />
-        <option value="$PROJECT_DIR$/bin/rc.rb" />
         <option value="$PROJECT_DIR$/lib/assets/rc_answers" />
         <option value="$PROJECT_DIR$/lib/assets/rc_passages" />
+        <option value="$PROJECT_DIR$/bin/rc.rb" />
       </list>
     </option>
   </component>
@@ -515,7 +515,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22493036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4037267" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -570,19 +570,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/bin/rc.rb</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/bin/rc.rb</url>
-          <line>21</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="RubyRunConfigurationType">
@@ -592,13 +580,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/api/meanings/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/api/meanings/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9285715" vertical-offset="0" max-vertical-offset="264">
@@ -944,29 +925,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/assets/rc_answers">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="37444">
+        <state vertical-scroll-proportion="80.94066" vertical-offset="0" max-vertical-offset="37444">
           <caret line="1674" column="5" selection-start-line="1674" selection-start-column="5" selection-end-line="1674" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/rc.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.4/gems/ruby-debug-ide-0.4.23/lib/ruby-debug-ide.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1741" max-vertical-offset="3850">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/assets/rc_passages">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="261.09653" vertical-offset="188" max-vertical-offset="204292">
-          <caret line="9230" column="2" selection-start-line="9230" selection-start-column="2" selection-end-line="9230" selection-end-column="2" />
+        <state vertical-scroll-proportion="-1.3707865" vertical-offset="79012" max-vertical-offset="204292">
+          <caret line="3597" column="1" selection-start-line="3597" selection-start-column="1" selection-end-line="3597" selection-end-column="1" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/rc.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7098901" vertical-offset="425" max-vertical-offset="880">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
