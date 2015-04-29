@@ -55,7 +55,7 @@ app.controller('TestWordsController', function ($scope, $timeout, $q, $statePara
             populateRandomAnswers($scope.currentWord['id']);
         } else {
             console.log($scope.wrongAnswerIds);
-            $state.go('app.wordlists.show', {id: $stateParams.id});
+            $state.go('app.verbal.wordlists.show', {id: $stateParams.id});
         }
     };
 
