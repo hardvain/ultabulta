@@ -1,31 +1,64 @@
 <nav ui-nav>
-  <ul class="nav">
-    <li class="nav-header m-v-sm hidden-folded">
-      Menu
-    </li>
-    <li ui-sref-active="active">
-      <a md-ink-ripple ui-sref="app.dashboard">
-        <i class="fa fa-dashboard icon mdi-action-settings-input-svideo i-20"></i>
-        <span class="font-normal">Dashboard</span>
-      </a>
-    </li>
-    <li>
-      <a md-ink-ripple ui-sref="app.wordlists.list">
-        <i class="icon mdi-navigation-apps i-20"></i>
-        <span class="font-normal">Word Lists</span>
-      </a>
-    </li>
-    <li>
-      <a md-ink-ripple ui-sref="app.settings">
-        <i class="icon mdi-action-settings i-20"></i>
-        <span>Settings</span>
-      </a>
-    </li>
-    <li>
-      <a md-ink-ripple href="/signout">
-        <i class="icon fa fa-sign-out i-20"></i>
-        <span>Logout</span>
-      </a>
-    </li>
-  </ul>
+    <ul class="nav">
+        <li class="nav-header m-v-sm hidden-folded">
+            Menu
+        </li>
+        <li ui-sref-active="active">
+            <a md-ink-ripple ui-sref="app.dashboard">
+                <i class="fa fa-dashboard icon mdi-action-settings-input-svideo i-20"></i>
+                <span class="font-normal">Dashboard</span>
+            </a>
+        </li>
+        <li ng-class="{active:$state.includes('app.verbal')}">
+            <a md-ink-ripple="">
+                <span class="pull-right text-muted">
+                  <i class="fa fa-caret-down"></i>
+                </span>
+                <i class="icon mdi-navigation-apps i-20"></i>
+                <span class="font-normal">Verbal</span>
+                <div class="md-ripple-container"></div>
+            </a>
+            <ul class="nav nav-sub">
+                <li ui-sref-active="active" class="">
+                    <a md-ink-ripple="" ui-sref="app.verbal.wordlists.list">Vocabulary
+                        <div class="md-ripple-container"></div>
+                    </a>
+                </li>
+                <li ui-sref-active="active" class="active">
+                    <a md-ink-ripple="" ui-sref="app.verbal.wordlists.list">RC
+                        <div class="md-ripple-container"></div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li ng-class="{active:$state.includes('app.quants')}">
+            <a md-ink-ripple="">
+                <span class="pull-right text-muted">
+                  <i class="fa fa-caret-down"></i>
+                </span>
+                <i class="icon fa fa-calculator"></i>
+                <span class="font-normal">Quants</span>
+                <div class="md-ripple-container"></div>
+            </a>
+            <ul class="nav nav-sub">
+                <li ui-sref-active="active" class="">
+                    <a md-ink-ripple="" ui-sref="app.verbal.wordlists.list">Algebra
+                        <div class="md-ripple-container"></div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a md-ink-ripple ui-sref="app.settings">
+                <i class="icon mdi-action-settings i-20"></i>
+                <span>Settings</span>
+            </a>
+        </li>
+        <li>
+            <a md-ink-ripple href="/signout">
+                <i class="icon fa fa-sign-out i-20"></i>
+                <span>Logout</span>
+            </a>
+        </li>
+    </ul>
 </nav>
