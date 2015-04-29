@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :answers
+  resources :questions
+  resources :passages
   devise_for :users
   namespace 'api' do
     resources :words do

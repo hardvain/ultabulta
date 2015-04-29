@@ -11,10 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150419113534) do
+ActiveRecord::Schema.define(version: 20150429123103) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "answers", force: :cascade do |t|
+    t.text     "content"
+    t.integer  "question_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  add_index "answers", ["question_id"], name: "index_answers_on_question_id", using: :btree
 
   create_table "examples", force: :cascade do |t|
     t.text     "content"
@@ -42,6 +51,23 @@ ActiveRecord::Schema.define(version: 20150419113534) do
   end
 
   add_index "mnemonics", ["word_id"], name: "index_mnemonics_on_word_id", using: :btree
+
+  create_table "passages", force: :cascade do |t|
+    t.text     "content"
+    t.string   "passage_type"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  create_table "questions", force: :cascade do |t|
+    t.text     "content"
+    t.string   "answer"
+    t.integer  "passage_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "questions", ["passage_id"], name: "index_questions_on_passage_id", using: :btree
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
