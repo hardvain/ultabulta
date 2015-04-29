@@ -34,7 +34,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="681" max-vertical-offset="1430">
+            <state vertical-scroll-proportion="-12.607142" vertical-offset="681" max-vertical-offset="1430">
               <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
               <folding />
             </state>
@@ -111,24 +111,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rc_passages" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/assets/rc_passages">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33285093" vertical-offset="52416" max-vertical-offset="159258">
-              <caret line="2393" column="54" selection-start-line="2393" selection-start-column="0" selection-end-line="2393" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="rc_answers" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/assets/rc_answers">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="37444">
               <caret line="1674" column="5" selection-start-line="1674" selection-start-column="5" selection-end-line="1674" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rc_passages" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/assets/rc_passages">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.7837838" vertical-offset="203515" max-vertical-offset="204292">
+              <caret line="9223" column="0" selection-start-line="9223" selection-start-column="0" selection-end-line="9223" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -517,7 +514,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22493036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22493036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4037267" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -891,7 +888,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="681" max-vertical-offset="1430">
+        <state vertical-scroll-proportion="-12.607142" vertical-offset="681" max-vertical-offset="1430">
           <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
           <folding />
         </state>
@@ -963,8 +960,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/assets/rc_passages">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33285093" vertical-offset="52416" max-vertical-offset="159258">
-          <caret line="2393" column="54" selection-start-line="2393" selection-start-column="0" selection-end-line="2393" selection-end-column="54" />
+        <state vertical-scroll-proportion="-0.7837838" vertical-offset="203515" max-vertical-offset="204292">
+          <caret line="9223" column="0" selection-start-line="9223" selection-start-column="0" selection-end-line="9223" selection-end-column="0" />
           <folding />
         </state>
       </provider>
