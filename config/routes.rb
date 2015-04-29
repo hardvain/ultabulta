@@ -7,6 +7,11 @@ Rails.application.routes.draw do
     resources :words do
       resources :mnemonics, :examples, :meanings
     end
+     resources :passages do
+       resources :questions do
+         resources :answers
+       end
+     end
   end
 
   get '/app' => 'app#index'

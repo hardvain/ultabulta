@@ -1,4 +1,4 @@
-class PassagesController < ApplicationController
+class Api::PassagesController < ApplicationController
   before_action :set_passage, only: [:show, :edit, :update, :destroy]
 
   # GET /passages
