@@ -8,6 +8,11 @@ class Api::PassagesController < ApplicationController
     @passages = Passage.includes(:questions).page(params[:page]).per(params[:count])
   end
 
+  def count
+    @count = Passage.count
+    render json: {count:@count}
+  end
+
   # GET /passages/1
   # GET /passages/1.json
   def show
