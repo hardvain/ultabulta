@@ -52,10 +52,27 @@ angular.module('app')
           controller:'SettingsController',
           resolve: load('/app/scripts/controllers/settings.js')
         })
-          .state('app.verbal', {
+        .state('app.verbal', {
+          url: '',
+          template: '<div ui-view></div>',
+          abstract:true
+        })
+          .state('app.verbal.passages', {
             url: '',
             template: '<div ui-view></div>',
             abstract:true
+          })
+          .state('app.verbal.passages.list', {
+            url: '/passages',
+            templateUrl: '/app/views/ui/passages/index.html',
+            controller: 'PassagesController',
+            data: {title: 'Passages'},
+            resolve:{
+              passagesCount :function(PassageService){
+                return PassageService.count();
+              },
+              deps: load(['/app/scripts/controllers/passages/PassagesController.js']).deps
+            }
           })
         .state('app.verbal.words', {
           url: '/words',
@@ -135,8 +152,7 @@ angular.module('app')
           data: {title: 'Test Mode'},
           resolve:{
             words : function(WordsService,$stateParams){
-              var data = WordsService.getWords($stateParams.id);
-                return data;
+              return WordsService.getWords($stateParams.id);
             },
             deps: load('/app/scripts/controllers/words/TestWordsController.js').deps
           }
