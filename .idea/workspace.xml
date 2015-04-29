@@ -124,8 +124,8 @@
       <file leaf-file-name="rc_passages" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/assets/rc_passages">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7837838" vertical-offset="203515" max-vertical-offset="204292">
-              <caret line="9223" column="0" selection-start-line="9223" selection-start-column="0" selection-end-line="9223" selection-end-column="0" />
+            <state vertical-scroll-proportion="261.09653" vertical-offset="188" max-vertical-offset="204292">
+              <caret line="9230" column="2" selection-start-line="9230" selection-start-column="2" selection-end-line="9230" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -942,14 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/rc.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/assets/rc_answers">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="37444">
@@ -958,10 +950,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bin/rc.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/assets/rc_passages">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7837838" vertical-offset="203515" max-vertical-offset="204292">
-          <caret line="9223" column="0" selection-start-line="9223" selection-start-column="0" selection-end-line="9223" selection-end-column="0" />
+        <state vertical-scroll-proportion="261.09653" vertical-offset="188" max-vertical-offset="204292">
+          <caret line="9230" column="2" selection-start-line="9230" selection-start-column="2" selection-end-line="9230" selection-end-column="2" />
           <folding />
         </state>
       </provider>
