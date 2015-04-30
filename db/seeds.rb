@@ -5,32 +5,32 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-require 'json'
-
-words = File.read("#{Rails.root}/lib/assets/words.json")
-meanings =[], examples =[], mnemonics = []
-JSON.parse(words).each do |word|
-  if word['definitions']
-    meanings = word['definitions'].map do |definition|
-      Meaning.new(content:definition)
-    end
-  end
-
-  if word['examples']
-    examples = word['examples'].map do |example|
-      Example.new(content:example)
-    end
-  end
-
-  if word['mnemonics']
-    mnemonics = word['mnemonics'].map do |mnemonic|
-      Mnemonic.new(content:mnemonic)
-    end
-  end
-
-  puts word['id']
-  Word.create(name:word['word'],meanings:meanings,examples:examples,mnemonics:mnemonics)
-end
+# require 'json'
+#
+# words = File.read("#{Rails.root}/lib/assets/words.json")
+# meanings =[], examples =[], mnemonics = []
+# JSON.parse(words).each do |word|
+#   if word['definitions']
+#     meanings = word['definitions'].map do |definition|
+#       Meaning.new(content:definition)
+#     end
+#   end
+#
+#   if word['examples']
+#     examples = word['examples'].map do |example|
+#       Example.new(content:example)
+#     end
+#   end
+#
+#   if word['mnemonics']
+#     mnemonics = word['mnemonics'].map do |mnemonic|
+#       Mnemonic.new(content:mnemonic)
+#     end
+#   end
+#
+#   puts word['id']
+#   Word.create(name:word['word'],meanings:meanings,examples:examples,mnemonics:mnemonics)
+# end
 
 
 file = IO.readlines("#{Rails.root}/lib/assets/rc_passages")
@@ -50,6 +50,10 @@ file.each do |line|
 
       last_question[:answers] << line.sub("***","").strip
     else
+      current_passage[:questions] = current_passage[:questions].reverse
+      current_passage[:questions].each do |question|
+        question[:answers] = question[:answers].reverse
+      end
       passages << current_passage
       current_passage={questions:[],passage:""}
       current_passage[:passage] = line
