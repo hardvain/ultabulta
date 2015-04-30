@@ -1,72 +1,70 @@
 <div class="row row-flex row-flex-wrap">
-  <div class="col-sm-4 p-v-sm " ng-repeat="word in words track by $index">
-      <div class="panel panel-card border-{{app.setting.theme.primary}}">
-        <div class="item">
-        </div>
-        <a md-ink-ripple  class="md-btn md-raised md-fab bg-white m-r md-fab-offset pull-right border-{{app.setting.theme.primary}}" ng-click="removeCard(word.id)"><i
-          class="mdi-action-visibility-off i-20"></i></a>
+    <div class="col-sm-4 p-v-sm row-flex row-flex-wrap" ng-repeat="word in words track by $index">
+        <div class="md-whiteframe-z0 bg-white border-{{app.setting.theme.primary}}">
+            <a md-ink-ripple
+               class="md-btn md-raised md-fab bg-white m-r md-fab-offset pull-right border-{{app.setting.theme.primary}}"
+               ng-click="removeCard(word.id)"><i
+                    class="mdi-action-visibility-off i-20"></i></a>
 
-        <a md-ink-ripple class="md-btn md-raised md-fab bg-white m-r md-fab-offset border-{{app.setting.theme.primary}}"
-           style="margin-bottom: 0px ;margin-left: 10px">{{word.id}}</a>
+            <a md-ink-ripple
+               class="md-btn md-raised md-fab bg-white m-r md-fab-offset border-{{app.setting.theme.primary}}"
+               style="margin-bottom: 0px ;margin-left: 10px">{{word.id}}</a>
 
-        <div class="p">
-          <div class="text-center">
-            <button md-ink-ripple="" ui-sref="app.verbal.words.word({id:word.id})" class="md-btn md-raised m-b btn-fw {{app.setting.theme.primary}}">{{word.name}}</button>
-          </div>
-
-          <div class="md-whiteframe-z0 bg-white border-{{app.setting.theme.primary}}">
+            <div class="text-center">
+                <button md-ink-ripple="" ui-sref="app.verbal.words.word({id:word.id})"
+                        class="md-btn md-raised m-b btn-fw {{app.setting.theme.primary}}">{{word.name}}
+                </button>
+            </div>
             <ul class="nav nav-md nav-tabs nav-lines b-{{app.setting.theme.primary}}">
-              <li class="active" ng-if="word.meanings.length>0">
-                <a href="" data-toggle="tab" data-target="#meaning-{{word.id}}">Meaning</a>
-              </li>
-              <li ng-if="word.examples.length>0">
-                <a href="" data-toggle="tab" data-target="#example-{{word.id}}">Example</a>
-              </li>
-              <li ng-if="word.mnemonics.length>0">
-                <a href="" data-toggle="tab" data-target="#mnemonic-{{word.id}}">Mnemonic</a>
-              </li>
+                <li class="active" ng-if="word.meanings.length>0">
+                    <a href="" data-toggle="tab" data-target="#meaning-{{word.id}}">Meaning</a>
+                </li>
+                <li ng-if="word.examples.length>0">
+                    <a href="" data-toggle="tab" data-target="#example-{{word.id}}">Example</a>
+                </li>
+                <li ng-if="word.mnemonics.length>0">
+                    <a href="" data-toggle="tab" data-target="#mnemonic-{{word.id}}">Mnemonic</a>
+                </li>
             </ul>
             <div class="tab-content p b-t ">
-              <div role="tabpanel" class="tab-pane animated fadeIn active" id="meaning-{{word.id}}">
-                <div class="md-list  bg-white m-b ">
+                <div role="tabpanel" class="tab-pane animated fadeIn active" id="meaning-{{word.id}}">
+                    <div class="md-list  bg-white m-b ">
 
-                  <div class="md-list-item">
-                    <div class="md-list-item-content text-justify">
-                      <p>{{word.meanings[0].content}}</p>
+                        <div class="md-list-item">
+                            <div class="md-list-item-content text-justify">
+                                <p>{{word.meanings[0].content}}</p>
+                            </div>
+                        </div>
+
+
                     </div>
-                  </div>
-
-
                 </div>
-              </div>
-              <div role="tabpanel" class="tab-pane animated fadeIn" id="example-{{word.id}}">
-                <div class="md-list  bg-white m-b ">
+                <div role="tabpanel" class="tab-pane animated fadeIn" id="example-{{word.id}}">
+                    <div class="md-list  bg-white m-b ">
 
-                  <div class="md-list-item">
-                    <div class="md-list-item-content text-justify">
-                      <p>{{word.examples[0].content}}</p>
+                        <div class="md-list-item">
+                            <div class="md-list-item-content text-justify">
+                                <p>{{word.examples[0].content}}</p>
+                            </div>
+                        </div>
+
+
                     </div>
-                  </div>
-
-
                 </div>
-              </div>
-              <div role="tabpanel" class="tab-pane animated fadeIn" id="mnemonic-{{word.id}}">
-                <div>
-                  <div class="md-list  bg-white m-b }">
-                    <div class="md-list-item">
-                      <div class="md-list-item-content">
-                        <p>{{word.mnemonics[0].content}}</p>
-                      </div>
+                <div role="tabpanel" class="tab-pane animated fadeIn" id="mnemonic-{{word.id}}">
+                    <div>
+                        <div class="md-list  bg-white m-b }">
+                            <div class="md-list-item">
+                                <div class="md-list-item-content">
+                                    <p>{{word.mnemonics[0].content}}</p>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
-
-                  </div>
-
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-  </div>
+    </div>
 </div>
