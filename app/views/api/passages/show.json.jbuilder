@@ -8,4 +8,3 @@ json.questions @passage.questions do |question|
     json.content ans.content
   end
 end
-json.url passage_url(@passage, format: :json)

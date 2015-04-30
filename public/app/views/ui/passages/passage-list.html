@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="m-b">
+        <div class="col-md-2" ng-repeat="a in []| range:totalPassages">
+            <div class="panel panel-card text-center border-{{app.setting.theme.primary}}">
+                <div class="p c-{{app.setting.theme.primary}}">
+                    <div class="text-center">
+                        <button md-ink-ripple="" ui-sref="app.verbal.passages.show({id:{{$index+1}}})"
+                                class="md-btn md-raised btn-fw {{app.setting.theme.primary}}">Passage {{$index + 1}}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

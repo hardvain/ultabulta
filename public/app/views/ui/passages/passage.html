@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading bg-white text-center">
+                Passage
+            </div>
+            <div class="panel-body  text-justify" >
+                {{passage.content}}
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading bg-white text-center">
+                Answers
+            </div>
+            <div class="panel-body text-justify" >
+                <div class="row" ng-repeat="question in passage.questions">
+                    <div class="col-md-12" >
+                        {{$index+1}}. {{question.content}}
+                        <div ng-repeat="answer in question.answers">
+                            <p>
+                                <label class="md-check">
+                                    <input type="radio" name="{{$parent.$index}}">
+                                    <i class="indigo"></i>
+                                    {{answer.content}}
+                                </label>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

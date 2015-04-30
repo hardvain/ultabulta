@@ -1,4 +1,4 @@
 
 app.controller('PassagesController', function ($scope,passagesCount) {
-    console.log(passagesCount.data.count);
+    $scope.totalPassages = passagesCount.data.count;
 });
