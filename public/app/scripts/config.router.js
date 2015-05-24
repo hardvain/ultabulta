@@ -45,6 +45,13 @@ angular.module('app')
                     controller: 'DashboardController',
                     resolve: load(['/app/scripts/controllers/dashboard.js', '/app/scripts/controllers/chart.js', '/app/scripts/controllers/vectormap.js'])
                 })
+                .state('app.workbench', {
+                    url: '/workbench',
+                    templateUrl: '/app/views/workbench.html',
+                    data: {title: 'WorkBench'}
+                    //controller: 'DashboardController',
+                    //resolve: load(['/app/scripts/controllers/dashboard.js', '/app/scripts/controllers/chart.js', '/app/scripts/controllers/vectormap.js'])
+                })
                 .state('app.settings', {
                     url: '/settings',
                     templateUrl: '/app/views/pages/settings.html',

@@ -1,0 +1,138 @@
+
+24/05/15 10:36:27 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-light-webfont.eot",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:28 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-light-webfont.eot?",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:28 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-light-webfont.woff2",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:29 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-light-webfont.woff",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:30 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-light-webfont.ttf",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:30 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-light-webfont.svg",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:30 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-thin-webfont.eot",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:31 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-thin-webfont.eot?",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:32 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-thin-webfont.woff",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:32 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-thin-webfont.woff2",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:33 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-thin-webfont.ttf",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:33 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-thin-webfont.svg",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:34 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-regular-webfont.eot",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:34 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-regular-webfont.eot?",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:35 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-regular-webfont.woff2",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:35 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-regular-webfont.woff",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:35 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-regular-webfont.ttf",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:36 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-regular-webfont.svg",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:36 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-bold-webfont.eot",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:37 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-bold-webfont.eot?",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:37 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-bold-webfont.woff2",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:38 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-bold-webfont.svg",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:38 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-bold-webfont.ttf",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:39 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/fonts/aileron-bold-webfont.woff",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/fonts.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:39 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/material-design-icons/Material-Design-Icons.eot?",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:39 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/material-design-icons/Material-Design-Icons.woff",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:40 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/material-design-icons/Material-Design-Icons.ttf",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:41 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/material-design-icons/Material-Design-Icons.woff2",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:41 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Thin.woff",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:41 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/material-design-icons/Material-Design-Icons.svg",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:41 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Thin.woff2",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:42 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Thin.ttf",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:43 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Light.woff2",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:43 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Light.ttf",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:43 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Regular.woff",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:44 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Regular.woff2",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:45 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Medium.woff2",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:45 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Medium.ttf",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:46 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Bold.woff2",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:46 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Light.woff",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:47 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Medium.woff",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:47 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Bold.woff",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:47 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Bold.ttf",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:49 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/assets/font/roboto/Roboto-Regular.ttf",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/assets/css/materialize.min.css",
+	failed with error code 404 (not found)
+24/05/15 10:36:54 am - ERROR: Download of "http://www.bdinfosys.com/demo/appmate/sites/blog-standard-no-sidebar.html",
+	referenced from "http://www.bdinfosys.com/demo/appmate/sites/single-image.html",
+	failed with error code 404 (not found)
+
+---------------------

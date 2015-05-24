@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Appmate - App landing Template</title>
+
+        <meta name="description" content="Awesome bootstrap based app landing template">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="assets/css/materialize.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/ionicons.min.css">
+
+        <link rel="stylesheet" href="assets/css/fonts.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/blog.css">
+        <link rel="stylesheet" href="assets/css/blog-single.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/colors/color1.css">
+        <!-- <link rel="stylesheet" href="assets/css/colors/color2.css"> -->
+        <!-- <link rel="stylesheet" href="assets/css/colors/color3.css"> -->
+        <!-- <link rel="stylesheet" href="assets/css/colors/color4.css"> -->
+        <!-- <link rel="stylesheet" href="assets/css/colors/color5.css"> -->
+        <!-- <link rel="stylesheet" href="assets/css/colors/color6.css"> -->
+        <!-- <link rel="stylesheet" href="assets/css/colors/color7.css"> -->
+        <!-- <link rel="stylesheet" href="assets/css/colors/color8.css"> -->
+
+        <!--[if lt IE 9]>
+            <script src="assets/js/vendor/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body class="single-blog-page">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <!-- Loader start -->
+        <div id="loader">
+            <div class="loader-content">
+                <div class="preloader-wrapper small active">
+                    <div class="spinner-layer spinner-blue-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="gap-patch">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+                <p class="loading-title">Loading...</p>
+            </div>
+        </div>
+        <!-- Loader end -->
+        
+
+
+        <!-- start option panel -->
+        <div id="switch">
+            <div class="content-switcher">
+                <p>Color Options:</p>
+                <ul class="header">
+                    <li><a href="single-vimeo-video.html#" onclick="setActiveStyleSheet('color1'); return false;" class="button color switch" style="background-color:#3f51b5"></a></li>
+                    <li><a href="single-vimeo-video.html#" onclick="setActiveStyleSheet('color2'); return false;" class="button color switch" style="background-color:#C377E0"></a></li>
+                    <li><a href="single-vimeo-video.html#" onclick="setActiveStyleSheet('color3'); return false;" class="button color switch" style="background-color:#00baff"></a></li>
+                    <li><a href="single-vimeo-video.html#" onclick="setActiveStyleSheet('color4'); return false;" class="button color switch" style="background-color:#16a085"></a></li>
+                    <li><a href="single-vimeo-video.html#" onclick="setActiveStyleSheet('color5'); return false;" class="button color switch" style="background-color:#ff6060"></a></li>
+                    <li><a href="single-vimeo-video.html#" onclick="setActiveStyleSheet('color6'); return false;" class="button color switch" style="background-color:#66798f"></a></li>
+                    <li><a href="single-vimeo-video.html#" onclick="setActiveStyleSheet('color7'); return false;" class="button color switch" style="background-color:#8e44ad"></a></li>
+                    <li><a href="single-vimeo-video.html#" onclick="setActiveStyleSheet('color8'); return false;" class="button color switch" style="background-color:#DF8911"></a></li>
+                </ul>
+                <p>Menu Options:</p>
+                <div class="menu-select" title="The menu will display in all devices">
+                    <input type="radio" id="menu1" name="intelligent-menu">
+                    <label for="menu1">Fixed</label>
+                </div>
+                <div class="menu-select" title="The menu will display or hide in all devices depending on scroll">
+                    <input type="radio" id="menu2" name="intelligent-menu" checked="checked">
+                    <label for="menu2">Intelligent ( Auto Hide )</label>
+                </div>
+                <div class="menu-select" title="Fixed menu will apply in non-mobile devices and Intelligent menu will apply in mobile devices">
+                    <input type="radio" id="menu3" name="intelligent-menu">
+                    <label for="menu3">Mobile Intelligent</label>
+                </div>
+                <div id="hide">
+                    <i class="fa fa-times"></i>
+                </div>
+            </div>
+        </div>
+        <div id="show">
+            <i class="fa fa-cog color-brand"></i>
+        </div>
+        <!-- end option panel -->
+
+
+
+        <!-- Header Menu start -->
+        <header class="main-header">
+            <!-- desktop menu -->
+            <div class="header-big-screen hidden-sm hidden-xs">
+                <div class="container">
+                    <div class="header-inner clearfix">
+                        <a href="single-vimeo-video.html#home" data-section="#home" class="logo menu-smooth-scroll">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+
+                        <nav class="menu">
+                            <ul>
+                                <li><a href="home-gradient.html">Home</a></li>
+                                <li class="has-sub">
+                                    <a href="single-vimeo-video.html#">Blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog-standard.html">Standard</a></li>
+                                        <li><a href="blog-masonry-sidebar.html">Masonry Sidebar</a></li>
+                                        <li><a href="blog-masonry-no-sidebar.html">Masonry No Sidebar</a></li>
+                                        <li><a href="blog-masonry-full-width.html">Masonry Full Width</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile menu -->
+            <div class="header-mobile-screen visible-sm visible-xs full-height">
+                <div class="header-inner full-height">
+                    <div class="logo-area clearfix">
+                        <a href="single-vimeo-video.html#home" data-section="#home" class="logo pull-left menu-smooth-scroll">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                        <div class="bar-area pull-right">
+                            <a href="single-vimeo-video.html#" class="open-menu"><i class="fa fa-bars"></i></a>
+                            <a href="single-vimeo-video.html#" class="close-menu"><i class="fa fa-times"></i></a>
+                        </div>
+                    </div>
+
+                    <nav class="menu animated">
+                        <ul>
+                            <li><a href="home-gradient.html">Home</a></li>
+                            <li class="has-sub">
+                                <a href="single-vimeo-video.html#">Blog</a>
+                                <ul class="sub-menu">
+                                    <li><a href="blog-standard.html">Standard</a></li>
+                                    <li><a href="blog-masonry-sidebar.html">Masonry Sidebar</a></li>
+                                    <li><a href="blog-masonry-no-sidebar.html">Masonry No Sidebar</a></li>
+                                    <li><a href="blog-masonry-full-width.html">Masonry Full Width</a></li>
+                                    <li><a href="http://www.bdinfosys.com/demo/appmate/sites/blog-standard-no-sidebar.html">Standard No Sidebar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- Header Menu end -->
+
+
+
+        <!-- Main section start -->
+        <main role="main" class="main">
+
+            <section class="blog-banner-area text-center color-white parallux-bg">
+                <div class="section-relative section-space">
+                    <div class="overlay overlay-one"></div>
+                    <div class="overlay-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="page-title">The Blog</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog Section start -->
+            <section id="blog" class="all-blog-section bottom-space">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
+                            <div class="single-page-post">
+                                <article class="single-blog-post">
+                                    <div class="blog-post-thumb-container videoPost">
+                                        <iframe src="https://player.vimeo.com/video/7449107" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                    </div>
+                                    <header><h1 class="blog-post-title">The Vimeo Video Post Tiltle</h1></header>
+                                    <h5 class="blog-post-meta">By <a href="single-vimeo-video.html#" title="Posted by Admin">Admin</a> | 24 Oct 2014 | <a href="single-vimeo-video.html#" class="comment-link">3 Comments</a></h5>
+                                    <div class="single-blog-post-content">
+<p>Curabitur suscipit suscipit tellus. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Donec vitae sapien ut libero venenatis faucibus. In ac felis quis tortor malesuada pretium.</p>
+
+<h2>Photography by <a href="single-vimeo-video.html#">Picjumbo</a></h2>
+
+<p>Maecenas vestibulum mollis diam. Duis vel nibh at velit scelerisque suscipit. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. In ac felis quis tortor malesuada pretium. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+
+<h3>Lorem ipsum dolor sit amet</h3>
+
+<p>Nullam vel sem. Praesent egestas neque eu enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Ut tincidunt tincidunt erat. Etiam vitae tortor. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Fusce ac felis sit amet ligula pharetra condimentum.</p>
+
+<blockquote>Nulla consequat massa quis enim. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. Curabitur suscipit suscipit tellus.</blockquote>
+
+<p>Suspendisse feugiat. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Etiam feugiat lorem non metus. Vivamus quis mi. Donec vitae sapien ut libero venenatis faucibus. Phasellus gravida semper nisi. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+
+
+<ul>
+    <li>Consectetur adipiscing elit vtae elit libero</li>
+    <li>Nullam id dolor id eget lacinia odio posuere erat a ante</li>
+    <li>Integer posuere erat dapibus posuere velit</li>
+</ul>
+
+<p>Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, vitae euismod ligula urna in dolor. Fusce fermentum odio nec arcu. In auctor lobortis lacus. Fusce vel dui. Praesent turpis. Fusce fermentum odio nec arcu. Aenean commodo ligula eget dolor. Etiam iaculis nunc ac metus. Praesent blandit laoreet nibh. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Ut varius tincidunt libero. Donec</p>
+
+<pre>
+.some-style {
+    width: 1170px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+</pre>
+
+<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non enim ut enim fringilla adipiscing id in lorem. Quisque aliquet neque vitae lectus tempus consectetur. Aliquam erat volutpat. Nunc eu nibh nulla, id cursus arcu.</p>
+
+<p style="font-style:'italic';">In varius varius justo, eget ultrices mauris rhoncus non. Morbi tristique, mauris eu imperdiet bibendum, velit diam iaculis velit, in ornare massa enim at lorem. Etiam risus diam, porttitor vitae ultrices quis, dapibus id dolor.</p>
+                                    </div>
+                                    <!-- end single-blog-post-content -->
+
+
+                                    <div class="clearfix blog-post-bottom-meta social-share">
+                                        <ul class="pull-left clearfix share-post">
+                                            <li>Share :</li>
+                                            <li><a href=""><i class="fa fa-facebook"></i> <span>12</span></a></li>
+                                            <li><a href=""><i class="fa fa-twitter"></i> <span>12</span></a></li>
+                                            <li><a href=""><i class="fa fa-google-plus"></i> <span>12</span></a></li>
+                                            <li><a href=""><i class="fa fa-pinterest"></i> <span>12</span></a></li>
+                                        </ul>
+                                        <a href="single-vimeo-video.html#" class="pull-right js-favorite favorite-link" title="Love this"><span><i class="fa fa-heart"></i></span> <span class="numb">112</span></a>
+                                    </div>
+                                </article>
+                                <div class="white-box comments-section">
+                                    <h2 class="com-title">4 Comment</h2>
+                                    <ul>
+                                        <li>
+                                            <div class="clearfix single-comment">
+                                                <div class="pull-left comment-thumb">
+                                                    <a href="single-vimeo-video.html#"><img src="img/cmt1.png" alt=""></a>
+                                                </div>
+                                                <div class="comment-content">
+                                                    <div class="comment-meta">
+                                                        <span class="author"><a href="">Jonh Doe</a></span>
+                                                        <span class="date">March 9, 2014</span>
+                                                        <span class="pull-right th-btn th-btn-small comment-reply">Reply</span>
+                                                    </div>
+                                                    <div class="comment-text">Stet clita kasd gubergren, no sea takimata sanctus est. Stet clita kasd gubergren, no sea ta</div>
+                                                </div>
+                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <div class="clearfix single-comment">
+                                                        <div class="pull-left comment-thumb">
+                                                            <a href="single-vimeo-video.html#"><img src="img/cmt2.jpg" alt=""></a>
+                                                        </div>
+                                                        <div class="comment-content">
+                                                            <div class="comment-meta">
+                                                                <span class="author"><a href="">Jonh Carter</a></span>
+                                                                <span class="date">March 9, 2014</span>
+                                                                <span class="pull-right th-btn th-btn-small comment-reply">Reply</span>
+                                                            </div>
+                                                            <div class="comment-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat.</div>
+                                                        </div>
+                                                    </div>
+                                                    <ul>
+                                                        <li>
+                                                            <div class="clearfix single-comment">
+                                                                <div class="pull-left comment-thumb">
+                                                                    <a href="single-vimeo-video.html#"><img src="img/cmt2.jpg" alt=""></a>
+                                                                </div>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-meta">
+                                                                        <span class="author"><a href="">Jonh Carter</a></span>
+                                                                        <span class="date">March 9, 2014</span>
+                                                                        <span class="pull-right th-btn th-btn-small comment-reply">Reply</span>
+                                                                    </div>
+                                                                    <div class="comment-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat.</div>
+                                                                </div>
+                                                            </div>
+                                                            <ul>
+                                                                <li>
+                                                                    <div class="clearfix single-comment">
+                                                                        <div class="pull-left comment-thumb">
+                                                                            <a href="single-vimeo-video.html#"><img src="img/cmt2.jpg" alt=""></a>
+                                                                        </div>
+                                                                        <div class="comment-content">
+                                                                            <div class="comment-meta">
+                                                                                <span class="author"><a href="">Jonh Carter</a></span>
+                                                                                <span class="date">March 9, 2014</span>
+                                                                                <span class="pull-right th-btn th-btn-small comment-reply">Reply</span>
+                                                                            </div>
+                                                                            <div class="comment-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat.</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="clearfix single-comment">
+                                                                        <div class="pull-left comment-thumb">
+                                                                            <a href="single-vimeo-video.html#"><img src="img/cmt2.jpg" alt=""></a>
+                                                                        </div>
+                                                                        <div class="comment-content">
+                                                                            <div class="comment-meta">
+                                                                                <span class="author"><a href="">Jonh Carter</a></span>
+                                                                                <span class="date">March 9, 2014</span>
+                                                                                <span class="pull-right th-btn th-btn-small comment-reply">Reply</span>
+                                                                            </div>
+                                                                            <div class="comment-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat.</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="clearfix single-comment">
+                                                                <div class="pull-left comment-thumb">
+                                                                    <a href="single-vimeo-video.html#"><img src="img/cmt2.jpg" alt=""></a>
+                                                                </div>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-meta">
+                                                                        <span class="author"><a href="">Jonh Carter</a></span>
+                                                                        <span class="date">March 9, 2014</span>
+                                                                        <span class="pull-right th-btn th-btn-small comment-reply">Reply</span>
+                                                                    </div>
+                                                                    <div class="comment-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat.</div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <div class="clearfix single-comment">
+                                                        <div class="pull-left comment-thumb">
+                                                            <a href="single-vimeo-video.html#"><img src="img/cmt2.jpg" alt=""></a>
+                                                        </div>
+                                                        <div class="comment-content">
+                                                            <div class="comment-meta">
+                                                                <span class="author"><a href="">Jonh Carter</a></span>
+                                                                <span class="date">March 9, 2014</span>
+                                                                <span class="pull-right th-btn th-btn-small comment-reply">Reply</span>
+                                                            </div>
+                                                            <div class="comment-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat.</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <div class="clearfix single-comment">
+                                                <div class="pull-left comment-thumb">
+                                                    <a href="single-vimeo-video.html#"><img src="img/cmt3.jpg" alt=""></a>
+                                                </div>
+                                                <div class="comment-content">
+                                                    <div class="comment-meta">
+                                                        <span class="author"><a href="">Shenorita</a></span>
+                                                        <span class="date">March 9, 2014</span>
+                                                        <span class="pull-right th-btn th-btn-small comment-reply">Reply</span>
+                                                    </div>
+                                                    <div class="comment-text">Stet clita kasd gubergren, no sea takimata sanctus est. Stet clita kasd gubergren, no sea ta</div>
+                                                </div>
+                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <div class="clearfix single-comment">
+                                                        <div class="pull-left comment-thumb">
+                                                            <a href="single-vimeo-video.html#"><img src="img/cmt2.jpg" alt=""></a>
+                                                        </div>
+                                                        <div class="comment-content">
+                                                            <div class="comment-meta">
+                                                                <span class="author"><a href="">Jonh Carter</a></span>
+                                                                <span class="date">March 9, 2014</span>
+                                                                <span class="pull-right th-btn th-btn-small comment-reply">Reply</span>
+                                                            </div>
+                                                            <div class="comment-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat.</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="clearfix single-comment">
+                                                        <div class="pull-left comment-thumb">
+                                                            <a href="single-vimeo-video.html#"><img src="img/cmt2.jpg" alt=""></a>
+                                                        </div>
+                                                        <div class="comment-content">
+                                                            <div class="comment-meta">
+                                                                <span class="author"><a href="">Jonh Carter</a></span>
+                                                                <span class="date">March 9, 2014</span>
+                                                                <span class="pull-right th-btn th-btn-small comment-reply">Reply</span>
+                                                            </div>
+                                                            <div class="comment-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat.</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <div class="clearfix single-comment">
+                                                <div class="pull-left comment-thumb">
+                                                    <a href="single-vimeo-video.html#"><img src="img/cmt3.jpg" alt=""></a>
+                                                </div>
+                                                <div class="comment-content">
+                                                    <div class="comment-meta">
+                                                        <span class="author"><a href="">Annonimous</a></span>
+                                                        <span class="date">March 9, 2014</span>
+                                                        <span class="pull-right th-btn th-btn-small comment-reply">Reply</span>
+                                                    </div>
+                                                    <div class="comment-text">Stet clita kasd gubergren, no sea takimata sanctus est. Stet clita kasd gubergren, no sea ta</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="clearfix white-box comment-form cu-form">
+                                    <h2 class="com-title"><span>Leave a comment</span><a href="single-vimeo-video.html#">Cancle reply</a></h2>
+                                    <form action="#">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="input-field">
+                                                    <label for="commentName">Name</label>
+                                                    <input id="commentName" type="text" name="commentName">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="input-field">
+                                                    <label for="commentEmail">Email</label>
+                                                    <input id="commentEmail" type="text" name="commentEmail">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="input-field">
+                                                    <label for="commentWebsite">Website</label>
+                                                    <input id="commentWebsite" type="text" name="commentWebsite">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="input-field">
+                                                    <label for="commentMessage">Message</label>
+                                                    <textarea id="commentMessage" class="materialize-textarea" rows="4" name="commentMessage"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="">
+                                                    <input type="submit" class="btn th-btn th-btn-small th-btn-default" value="Comment">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-log-4 col-md-4 col-sm-5 col-xs-12 primary-sidebar">
+                            <div class="sidebar-area">
+                                <aside class="white-box single-sidebar">
+                                    <form action="" class="search-form">
+                                        <div class="search-wrap">
+                                            <input type="search" class="search-field" placeholder="Search Blog">    
+                                            <button type="submit" class="color-brand"><i class="fa fa-search"></i></button>
+                                        </div>
+                                    </form>
+                                </aside>
+
+                                <aside class="white-box single-sidebar">
+                                    <h3 class="widget-title">CETEGORY</h3>
+                                    <div class="widget-text">
+                                        <ul class="boderd-list category-list">
+                                            <li class="clearfix"><a href="single-vimeo-video.html#">Features <span class="pull-right">5</span></a></li>
+                                            <li class="clearfix"><a href="single-vimeo-video.html#">Video <span class="pull-right">13</span></a></li>
+                                            <li class="clearfix"><a href="single-vimeo-video.html#">Excerpt <span class="pull-right">18</span></a></li>
+                                            <li class="clearfix"><a href="single-vimeo-video.html#">Audio <span class="pull-right">6</span></a></li>
+                                            <li class="clearfix"><a href="single-vimeo-video.html#">Gettings <span class="pull-right">22</span></a></li>
+                                            <li class="clearfix"><a href="single-vimeo-video.html#">Started <span class="pull-right">10</span></a></li>
+                                        </ul>
+                                    </div>
+                                </aside>
+
+                                <aside class="white-box single-sidebar">
+                                    <h3 class="widget-title">LATEST NEWS</h3>
+                                    <ul class="latest-post-wrap">
+                                        <li class="clearfix">
+                                            <div class="post-thumb">
+                                                <a href="single-vimeo-video.html#"><img src="img/ln1.jpg" alt=""></a>
+                                            </div>
+                                            <div class="lp-content">
+                                                <h2 class="title"><a href="single-vimeo-video.html#">Lorem Ipsum Dolor Sit</a></h2>
+                                                <p>Phasellus blandit leo ut odio. Maecenas malesua-</p>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <div class="post-thumb">
+                                                <a href="single-vimeo-video.html#"><img src="img/ln2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="lp-content">
+                                                <h2 class="title"><a href="single-vimeo-video.html#">Lorem Ipsum Dolor Sit</a></h2>
+                                                <p>Phasellus blandit leo ut odio. Maecenas malesua-</p>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <div class="post-thumb">
+                                                <a href="single-vimeo-video.html#"><img src="img/ln3.jpg" alt=""></a>
+                                            </div>
+                                            <div class="lp-content">
+                                                <h2 class="title"><a href="single-vimeo-video.html#">Lorem Ipsum Dolor Sit</a></h2>
+                                                <p>Phasellus blandit leo ut odio. Maecenas malesua-</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </aside>
+
+                                <aside class="white-box single-sidebar">
+                                    <h3 class="widget-title">BLOG ARCHIVE</h3>
+                                    <ul class="boderd-list archive-list">
+                                        <li><a href="single-vimeo-video.html#">January 2014</a></li>
+                                        <li><a href="single-vimeo-video.html#">February 2014</a></li>
+                                        <li><a href="single-vimeo-video.html#">March 2014</a></li>
+                                        <li><a href="single-vimeo-video.html#">April 2014</a></li>
+                                        <li><a href="single-vimeo-video.html#">May 2014</a></li>
+                                        <li><a href="single-vimeo-video.html#">June 2014</a></li>
+                                    </ul>
+                                </aside>
+
+                                <aside class="white-box single-sidebar">
+                                    <h3 class="widget-title">TAGS</h3>
+                                    <div class="clearfix tagcloud">
+                                        <a href="single-vimeo-video.html#">Android</a>
+                                        <a href="single-vimeo-video.html#">Smart Phone</a>
+                                        <a href="single-vimeo-video.html#">Latest</a>
+                                        <a href="single-vimeo-video.html#">Awesome</a>
+                                        <a href="single-vimeo-video.html#">Custom</a>
+                                        <a href="single-vimeo-video.html#">Bootstrap</a>
+                                        <a href="single-vimeo-video.html#">Theme</a>
+                                        <a href="single-vimeo-video.html#">Wordpress</a>
+                                        <a href="single-vimeo-video.html#">Themeforest</a>
+                                    </div>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Blog Section end -->
+
+
+            <!-- Contact Area start -->
+            <section id="contact" class="contact scroll-section">
+                <div class="container">
+                    <a href="single-vimeo-video.html#" data-section="#contact" class="btn contact-location-toggle-btn wow bounce" data-wow-duration="1.5s"><i class="ion-paper-airplane"></i></a>
+                    <div class="contact-content-wrapper">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12 hidden-xxs">
+                                <div class="contact-info">
+                                    <h3 class="contact-title">Contact Info</h3>
+                                    <ul class="contact-info-lists">
+                                        <li><a href="single-vimeo-video.html#"><span class="btn"><i class="ion-ios-location"></i></span>PO Box 16122, Collins Street West, Victoria 8007, Australia</a></li>
+                                        <li><a href="single-vimeo-video.html#"><span class="btn"><i class="ion-android-call"></i></span>+880 161 661 1112</a></li>
+                                        <li><a href="single-vimeo-video.html#"><span class="btn"><i class="ion-android-mail"></i></span>info@bdinfosys.com</a></li>
+                                        <li><a href="single-vimeo-video.html#"><span class="btn"><i class="ion-android-globe"></i></span>www.bdinfosys.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12">
+                                <div class="contact-form cu-form">
+                                    <h3 class="contact-title visible-xxs">Contact Us</h3>
+                                    <form action="assets/inc/sendEmail.php" id="contactForm">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="input-field">
+                                                    <label for="contactName">Name</label>
+                                                    <input id="contactName" type="text" name="contactName">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="input-field">
+                                                    <label for="contactEmail">Email</label>
+                                                    <input id="contactEmail" type="text" name="contactEmail">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="input-field">
+                                                    <label for="contactSubject">Subject</label>
+                                                    <input id="contactSubject" type="text" name="contactSubject">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="input-field">
+                                                    <label for="contactMessage">Message</label>
+                                                    <textarea id="contactMessage" class="materialize-textarea" rows="4" name="contactMessage"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="">
+                                                    <input type="submit" class="btn th-btn th-btn-small th-btn-default" value="Send">
+                                                    <div class="form-message z-depth-1" style="display:none"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12 visible-xxs">
+                                <div class="contact-info">
+                                    <ul class="contact-info-lists">
+                                        <li><a href="single-vimeo-video.html#"><span class="btn"><i class="ion-ios-location"></i></span>PO Box 16122, Collins Street West, Victoria 8007, Australia</a></li>
+                                        <li><a href="single-vimeo-video.html#"><span class="btn"><i class="ion-android-call"></i></span>+880 161 661 1112</a></li>
+                                        <li><a href="single-vimeo-video.html#"><span class="btn"><i class="ion-android-mail"></i></span>info@bdinfosys.com</a></li>
+                                        <li><a href="single-vimeo-video.html#"><span class="btn"><i class="ion-android-globe"></i></span>www.bdinfosys.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact Area end -->
+        </main>
+        <!-- Main section end -->
+
+
+
+        <!-- Footer area start -->
+        <footer class="main-footer">
+            <div class="top">
+                <div class="container">
+                    <div class="footer-logo">
+                        <img src="img/logo-white.png" alt="logo">
+                    </div>
+                    <div class="footer-social-area">
+                        <ul class="social footer-social">
+                            <li><a href="single-vimeo-video.html#" class="btn"><i class="ion-social-facebook"></i></a></li>
+                            <li><a href="single-vimeo-video.html#" class="btn"><i class="ion-social-twitter"></i></a></li>
+                            <li><a href="single-vimeo-video.html#" class="btn"><i class="ion-social-googleplus"></i></a></li>
+                            <li><a href="single-vimeo-video.html#" class="btn"><i class="ion-social-dribbble"></i></a></li>
+                            <li><a href="single-vimeo-video.html#" class="btn"><i class="ion-social-pinterest"></i></a></li>
+                            <li><a href="single-vimeo-video.html#" class="btn"><i class="ion-social-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="container">
+                    <p>&copy; 2015 apppick. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer area end -->
+
+
+
+        <script>window.jQuery || document.write('<script type="text/javascript" src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+        <script type="text/javascript" src="assets/js/vendor/detectmobilebrowser.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/materialize.min.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/jquery.nicescroll.min.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/wow.min.js"></script>
+        <script type="text/javascript" src="assets/owl-carousel/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/isotope.pkgd.min.js"></script>
+        <!-- jwPlayer -->
+        <script type="text/javascript" src="assets/jwplayer/jwplayer.js"></script>
+
+        <script type="text/javascript" src="assets/js/common.js"></script>
+        <script type="text/javascript" src="assets/js/settings.js"></script>
+    </body>
+</html>

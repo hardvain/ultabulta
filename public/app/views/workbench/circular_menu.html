@@ -1,0 +1,113 @@
+<style>
+    .contener div
+    {
+        -webkit-transition:all 0.6s ease;
+        -moz-transition:all 0.6s ease;
+        -ms-transition:all 0.6s ease;
+        transition:all 0.6s ease;
+    }
+    .contener
+    {
+        position:absolute;
+        top:120px;
+        margin-left: 50%;
+        left:-35px;
+    }
+    .bouton_click
+    {
+        width: 70px;
+        height: 70px;
+        background-color:#673ab7;
+        box-shadow: 2px 2px 9px #000000;
+        background-position: center;
+        background-repeat:no-repeat;
+        position:absolute;
+        z-index: 5;
+        border-radius: 50%;
+    }
+    .bouton_click_on
+    {
+        cursor:pointer;
+        background-image: url(YOUR-URL-IMAGE.png);
+    }
+    .bouton_click_off
+    {
+        background-image: url(YOUR-URL-IMAGE.png);
+    }
+    .circle
+    {
+        background-position: center;
+        background-repeat:no-repeat;
+        width: 70px;
+        height: 70px;
+        background-color:#673ab7;
+        border-radius: 50%;
+        position:absolute;
+        z-index: 4;
+    }
+    .bouton_ctr
+    {
+        width: 66px;
+        height: 66px;
+        border:2px solid #673ab7;
+        position:absolute;
+        z-index: 2;
+        border-radius: 50%;
+    }
+    .bouton_ctr_af
+    {
+        width: 240px;
+        height: 240px;
+        border:2px solid #673ab7;
+        margin-top: -85px;
+        margin-left:-85px;
+        position: absolute;
+        z-index: 2;
+        border-radius: 50%;
+    }
+    .circle_back{background-image: url('/app/images/a1.jpg');}
+    .circle_back_af{cursor:pointer; margin-left:-120px;background-image: url('/app/images/a1.jpg');}
+    .circle_more{background-image: url('/app/images/a1.jpg');}
+    .circle_more_af{cursor:pointer; margin-left:120px;background-image: url('/app/images/a1.jpg');}
+    .circle_option{background-image: url('/app/images/a1.jpg');}
+    .circle_option_af{cursor:pointer; margin-top:-120px;background-image: url('/app/images/a1.jpg');}
+    .circle_down{background-image: url('/app/images/a1.jpg');}
+    .circle_down_af{cursor:pointer; margin-top:120px;background-image: url('/app/images/a1.jpg');}
+</style>
+<div align="center" style="position:relative; height:300px;">
+    <div class="contener">
+        <div class="bouton_click bouton_click_on">&nbsp;</div>
+        <div class="bouton_ctr">&nbsp;</div>
+        <div class="circle circle_back">&nbsp;</div>
+        <div class="circle circle_more">&nbsp;</div>
+        <div class="circle circle_option">&nbsp;</div>
+        <div class="circle circle_down">&nbsp;</div>
+    </div>
+</div>
+<script>
+    (function(){
+        $(document).ready(function(){
+            $(".bouton_click").click(function()
+            {
+                $( ".bouton_click_on" ).removeClass( "bouton_click_on" ).addClass( "bouton_click_off" );
+                $( ".circle_back" ).removeClass( "circle_back" ).addClass( "circle_back_af" );
+                $( ".circle_more" ).removeClass( "circle_more" ).addClass( "circle_more_af" );
+                $( ".circle_option" ).removeClass( "circle_option" ).addClass( "circle_option_af" );
+                $( ".circle_down" ).removeClass( "circle_down" ).addClass( "circle_down_af" );
+                $( ".bouton_ctr" ).removeClass( "bouton_ctr" ).addClass( "bouton_ctr_af" );
+
+            });
+            $(".circle").click(function()
+            {
+                $( ".bouton_click_off" ).removeClass( "bouton_click_off" ).addClass( "bouton_click_on" );
+                $( ".circle_back_af" ).removeClass( "circle_back_af" ).addClass( "circle_back" );
+                $( ".circle_more_af" ).removeClass( "circle_more_af" ).addClass( "circle_more" );
+                $( ".circle_option_af" ).removeClass( "circle_option_af" ).addClass( "circle_option" );
+                $( ".circle_down_af" ).removeClass( "circle_down_af" ).addClass( "circle_down" );
+                $( ".bouton_ctr_af" ).removeClass( "bouton_ctr_af" ).addClass( "bouton_ctr" );
+
+
+            });
+        });
+    }())
+</script>
